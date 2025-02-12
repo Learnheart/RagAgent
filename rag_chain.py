@@ -27,7 +27,7 @@ def call_llm(model='gpt-3.5-turbo'):
     return llm, prompt
 
 def main():
-    text = text_splitter('data/news.json')
+    text = text_splitter('data')
     retriever = chunk_embedding(text)
     llm, prompt = call_llm(model='gpt-3.5-turbo')
 
@@ -39,7 +39,7 @@ def main():
 
     rag_chain = RunnablePassthrough() | retrieve_and_format | prompt | llm
 
-    question = "tình hình giá chung cư tại hà nội"
+    question = "một n"
     answer = rag_chain.invoke(question)
     print(answer.content)
 
