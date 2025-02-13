@@ -1,56 +1,62 @@
 import json
+import os
 import re
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-import os
 
-# def read_json(file):
-#     with open(file, 'r') as f:
-#         articles = json.load(f)
-#     data = [article['content'] for article in articles]
-#     return data
+def read_json_file(file_path):
+    with open(file_path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
-def read_files_from_data(folder):
-    json_list = []
+def read_all_json_files(folder):
+    json_data = []
     for filename in os.listdir(folder):
-        if filename.endswith('.json'):
+        if filename.endswith(".json"):
             file_path = os.path.join(folder, filename)
+            json_data.append(read_json_file(file_path))
+    return json_data
 
-            with open(file_path, 'r') as f:
-                data = json.load(f)
-                json_list.append(data)
-    return json_list
-
-def clean_text(file):
-    if not isinstance(file, str):
+def clean_text(text):
+    if not isinstance(text, str):
         return ""
-    text = file.replace('\\n', ' ').replace('\r', '').replace('\n', ' ')
-    text = re.sub(r'\s+', ' ', text)
-    text = text.strip()
-
+    text = text.replace("\r", "").replace("\n", " ") 
+    text = re.sub(r"\s+", " ", text).strip()  
     return text
 
-def extract_text_from_json(json):
-    if isinstance(json, dict):
-        return clean_text(" ").join(str(value) for value in json.values())
-    elif isinstance(json, list):
-        return clean_text(" ").join(str(item) for item in json)
-    return ""
+def extract_text(data):
+    text_list = []
+    
+    # Extract the title and subtitle
+    if "title" in data:
+        text_list.append(f"LUẬT: {data['title']}")
+    if "subtitle" in data:
+        text_list.append(f"CHỦ ĐỀ: {data['subtitle']}")
+    
+    # Extract chapters and sections
+    if "chapters" in data:
+        for chapter in data["chapters"]:
+            if "chapter_title" in chapter:
+                text_list.append(f"{chapter['chapter_title']}: {chapter.get('chapter_name', '')}")
+            
+            if "sections" in chapter:
+                for section in chapter["sections"]:
+                    section_title = section.get("section_title", "")
+                    section_content = section.get("section_content", "")
+                    text_list.append(f"{section_title}\n{section_content}")
 
-def read_database(file) -> str:
-    articles = read_files_from_data(file)
-    clean_data = (extract_text_from_json(article) for article in articles)
-    document = "\n".join(clean_data)
-    return document
+    return clean_text("\n\n".join(text_list))
 
-def text_splitter(file):
-    text = read_database(file)
+def process_and_chunk_data(folder):
+    json_data = read_all_json_files(folder)
+    # full text cleaned
+    full_text = "\n\n".join(extract_text(data) for data in json_data)
+    
     splitter = RecursiveCharacterTextSplitter(
-        chunk_size=1000,
+        chunk_size=1000, 
         chunk_overlap=200
     )
-    splitted_docs = splitter.split_text(text)
-    return splitted_docs
+    return splitter.split_text(full_text)
 
-# folder = 'data'
-# data = text_splitter(folder)
-# print(data)
+# test
+folder = "data"
+data_chunks = process_and_chunk_data(folder)
+print(data_chunks[-1])
