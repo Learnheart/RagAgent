@@ -102,7 +102,7 @@ def chunk_single_file(file_path):
         return []
 
 # test
-folder = "data/luat_dat_dai.json"
-data_chunks = chunk_single_file(folder)
-if data_chunks:
-    print(data_chunks[-1])
+# folder = "data/luat_dat_dai.json"
+# data_chunks = chunk_single_file(folder)
+# if data_chunks:
+#     print(data_chunks[-1])
