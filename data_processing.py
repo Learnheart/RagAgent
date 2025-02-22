@@ -3,6 +3,7 @@ import os
 import re
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
+# read json files
 def read_json_file(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -14,6 +15,20 @@ def read_all_json_files(folder):
             file_path = os.path.join(folder, filename)
             json_data.append(read_json_file(file_path))
     return json_data
+
+# read txt files
+def read_txt_file(file_path):
+    with open(file_path, 'r', encoding='utf-8') as f:
+        return f.read()
+    
+def read_all_txt_files(folder):
+    txt_files = []
+    for filename in os.listdir(folder):
+        if filename.endswith(".txt"):
+            file_path = os.path.join(folder, filename)
+            txt_files.append(read_txt_file(file_path))
+    return txt_files
+    
 
 def clean_text(text):
     if not isinstance(text, str):
@@ -101,8 +116,18 @@ def chunk_single_file(file_path):
         print(f"Error processing file {file_path}: {e}")
         return []
 
+def chunking_txt_file(file_path):
+    data = read_txt_file(file_path)
+    splitter = RecursiveCharacterTextSplitter(
+        chunk_size=500,
+        chunk_overlap=100
+    )
+    return splitter.split_text(data)
 # test
 # folder = "data/luat_dat_dai.json"
 # data_chunks = chunk_single_file(folder)
 # if data_chunks:
 #     print(data_chunks[-1])
+
+file = 'data/luat_dat_dai.txt'
+print(chunking_txt_file(file)[-1])
