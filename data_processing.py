@@ -122,7 +122,7 @@ def chunking_txt_file(file_path):
         chunk_size=500,
         chunk_overlap=100
     )
-    return splitter.split_text(data)
+    return splitter.split_text(clean_text(data))
 # test
 # folder = "data/luat_dat_dai.json"
 # data_chunks = chunk_single_file(folder)
@@ -130,4 +130,7 @@ def chunking_txt_file(file_path):
 #     print(data_chunks[-1])
 
 file = 'data/luat_dat_dai.txt'
-print(chunking_txt_file(file)[-1])
+# data = chunking_txt_file(file)[-1]
+# print(clean_text(data))
+# print("-----")
+# print(data)
