@@ -5,5 +5,6 @@
 2. Window: trong trường hợp thư viện k có quyền truy cập (Get-ExecutionPolicy = Restricted)
 Chạy: Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned   
 
-
 3. Install requirement packages: pip install --ignore-installed -r requirement.txt
+
+note: to freeze requirement.txt file using: pip freeze | cut -d "=" -f 1 > requirement.txt
