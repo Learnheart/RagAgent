@@ -1,12 +1,10 @@
-import time
+import os
 from langchain.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.output_parsers import StrOutputParser
 from langchain_community.embeddings.fastembed import FastEmbedEmbeddings
 from langchain_groq import ChatGroq
-import os
 
-embed_model = FastEmbedEmbeddings(model_name='sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2')
 groq_api_key = os.environ['GROQ_API_KEY']
 llm = ChatGroq(model_name='Llama3-8b-8192', api_key=groq_api_key)
 
@@ -24,5 +22,5 @@ def router_question(question):
     return router_result
 
 # test
-question = "“Người sử dụng đất” được hiểu như thế nào theo quy định của Luật Đất đai năm 2024?"
+question = "tình hình nhà đất có gì mới ko"
 print(router_question(question))
