@@ -3,165 +3,122 @@ import os
 import re
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-# read json files
-def read_json_file(file_path):
-    with open(file_path, "r", encoding="utf-8") as f:
-        return json.load(f)
+# Extract chapter, title, and date from text
+def extract_metadata(text):
+    chapter_pattern = r"(Chương\s+[IVXLCDM]+.*?|Mục\s+\d+.*?)(?=\s*Điều\s+\d+)"
+    title_date_pattern = r"(VĂN BẢN .+?)\s+(\d{2}/\d{2}/\d{4})"
 
-def read_all_json_files(folder):
-    json_data = []
-    for filename in os.listdir(folder):
-        if filename.endswith(".json"):
-            file_path = os.path.join(folder, filename)
-            json_data.append(read_json_file(file_path))
-    return json_data
+    chapter_match = re.search(chapter_pattern, text)
+    title_date_match = re.search(title_date_pattern, text)
 
-# read txt files
+    chapter = chapter_match.group(1).strip() if chapter_match else "Unknown Chapter"
+    title = title_date_match.group(1).strip() if title_date_match else "Unknown Title"
+    date = title_date_match.group(2) if title_date_match else "Unknown Date"
+
+    return chapter, title, date
+
+# Normalize text -> handle case Điều overlapping
+def normalize_text(text):
+    # Pattern to find all "Điều" mentions
+    article_pattern = re.compile(r"(Điều\s+(\d+))(?=[\s.,])", re.IGNORECASE)
+
+    # Store the first occurrence of each article number
+    first_occurrence = {}
+    matches = list(article_pattern.finditer(text))
+
+    # Identify the correct "Điều" (with format "Điều + number + .")
+    for match in matches:
+        article_number = match.group(2)
+
+        # Look ahead to check if it matches the correct format "Điều + number + ."
+        if text[match.end():match.end() + 1] == '.':
+            if article_number not in first_occurrence:
+                first_occurrence[article_number] = match.start()
+
+    # Normalize duplicates: lowercase all but the first correct occurrence
+    normalized_text = text
+    offset = 0
+
+    for match in matches:
+        article_number = match.group(2)
+        start, end = match.span()
+
+        if article_number in first_occurrence and first_occurrence[article_number] == start:
+            continue  # Keep the first valid occurrence unchanged
+
+        # Replace "Điều" with "điều" for duplicates
+        normalized_text = (
+            normalized_text[:start + offset] + "đ" + normalized_text[start + offset + 1:end + offset] + normalized_text[end + offset:]
+        )
+        offset += 0  # Adjust offset to account for modified text
+
+    return normalized_text
+
+
+# Extract all "Điều" 
+def extract_articles(text):
+    article_pattern = re.compile(r"(Điều\s+\d+.*?)((?=Điều\s+\d+)|$)", re.S)
+    return article_pattern.findall(text)
+
+# Read txt file 
 def read_txt_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         return f.read()
-    
-def read_all_txt_files(folder):
-    txt_files = []
-    for filename in os.listdir(folder):
-        if filename.endswith(".txt"):
-            file_path = os.path.join(folder, filename)
-            txt_files.append(read_txt_file(file_path))
-    return txt_files
 
-def clean_text(text):
-    if not isinstance(text, str):
-        return ""
-    text = text.replace("\r", "").replace("\n", " ") 
-    text = re.sub(r"\s+", " ", text).strip()  
-    return text
+# Chunk each article while maintaining metadata
+def chunk_text_with_metadata(text, max_length=1000):
+    text = normalize_text(text)
+    chapter, title, date = extract_metadata(text)
+    articles = extract_articles(text)
 
-# process text for read all json files in folder
-# def extract_text(data):
-#     text_list = []
-    
-#     # Extract the title and subtitle
-#     if "title" in data:
-#         text_list.append(f"LUẬT: {data['title']}")
-#     if "subtitle" in data:
-#         text_list.append(f"CHỦ ĐỀ: {data['subtitle']}")
-    
-#     if "chapters" in data:
-#         for chapter in data["chapters"]:
-#             if "chapter_title" in chapter:
-#                 text_list.append(f"{chapter['chapter_title']}: {chapter.get('chapter_name', '')}")
-            
-#             if "sections" in chapter:
-#                 for section in chapter["sections"]:
-#                     section_title = section.get("section_title", "")
-#                     section_content = section.get("section_content", "")
-#                     text_list.append(f"{section_title}\n{section_content}")
-
-#     return clean_text("\n\n".join(text_list))
-
-# def process_and_chunk_data(folder):
-#     json_data = read_all_json_files(folder)
-#     # full text cleaned
-#     full_text = "\n\n".join(extract_text(data) for data in json_data)
-    
-#     splitter = RecursiveCharacterTextSplitter(
-#         chunk_size=500, 
-#         chunk_overlap=100
-#     )
-#     return splitter.split_text(full_text)
-
-# # process text for chunking a given file in folder
-# def extract_text_from_a_file(article):
-#     text_list = []
-    
-#     # Extract the title and content
-#     if "title" in article:
-#         text_list.append(f"Tiêu đề: {article['title']}")
-#     if "content" in article:
-#         text_list.append(f"Nội dung: {article['content']}")
-        
-#     if "chapters" in article:
-#         for chapter in article["chapters"]:
-#             if "chapter_title" in chapter:
-#                 text_list.append(f"{chapter['chapter_title']}: {chapter.get('chapter_name', '')}")
-            
-#             if "sections" in chapter:
-#                 for section in chapter["sections"]:
-#                     section_title = section.get("section_title", "")
-#                     section_content = section.get("section_content", "")
-#                     text_list.append(f"{section_title}\n{section_content}")
-
-#     return clean_text("\n\n".join(text_list))
-
-# def chunk_single_file(file_path):
-#     try:
-#         data = read_json_file(file_path)
-        
-#         if isinstance(data, dict):
-#             data = [data]
-            
-#         if not isinstance(data, list):
-#             raise ValueError("Invalid JSON structure: Expected a list of articles.")
-        
-#         full_text = "\n\n".join(extract_text_from_a_file(article) for article in data)
-        
-#         splitter = RecursiveCharacterTextSplitter(
-#             chunk_size=500, 
-#             chunk_overlap=100
-#         )
-#         return splitter.split_text(full_text)
-    
-#     except Exception as e:
-#         print(f"Error processing file {file_path}: {e}")
-#         return []
-
-# recursive chunking
-def chunking_txt_file(file_path):
-    data = read_txt_file(file_path)
-    splitter = RecursiveCharacterTextSplitter(
-        chunk_size=500,
+    text_splitter = RecursiveCharacterTextSplitter(
+        separators=[". ", "; ", "\n"],
+        chunk_size=max_length,
         chunk_overlap=100
     )
-    return splitter.split_text(clean_text(data))
-
-# chunking theo từng điều luật
-def chunk_text(text, max_length=1000):
-    text = read_txt_file(clean_text(text))
-    pattern = r"((?:Chương\s+[IVXLCDM]+.*?|Mục\s+\d+.*?)(?=\s*Điều\s+\d+)|(?:Điều\s+\d+\..*?))(?=(?:Chương\s+[IVXLCDM]+|Mục\s+\d+|Điều\s+\d+\.|$))"
-    matches = re.findall(pattern, text, re.S)
 
     chunks = []
-    current_chunk = ""
-    for match in matches:
-        provision = clean_text(match)
 
-        if "Chương" in provision or "Mục" in provision:
-            if current_chunk:
-                chunks.append(current_chunk)
-            current_chunk = provision
-        else:
-            current_chunk += "\n\n" + provision
+    for article_full, _ in articles:
+        article_match = re.search(r"(Điều\s+\d+)", article_full)
+        article_number = article_match.group(0) if article_match else "Unknown Article"
 
-        if len(current_chunk) > max_length:
-            text_splitter = RecursiveCharacterTextSplitter(separators=[". ", "; ", "\n"],
-                chunk_size=max_length,
-                chunk_overlap=100
-            )
-            split_chunks = text_splitter.split_text(current_chunk)
-            chunks.extend(split_chunks)
-            current_chunk = ""
+        article_chunks = text_splitter.split_text(article_full)
 
-    if current_chunk:
-        chunks.append(current_chunk)
+        for chunk in article_chunks:
+            chunks.append({
+                "text": chunk,
+                "metadata": {
+                    "chapter": chapter,
+                    "title": title,
+                    "date": date,
+                    "article": article_number
+                }
+            })
 
     return chunks
 
-# test
-# folder = "data/luat_dat_dai.json"
-# data_chunks = chunk_single_file(folder)
-# if data_chunks:
-#     print(data_chunks[-1])
+# Process all text files and save chunks to JSON
+def process_folder_with_metadata(folder):
+    all_chunks = []
 
-# file = 'data/luat_dat_dai.txt'
-# chunks = chunk_text(file)
-# print(chunks[0])
+    for filename in os.listdir(folder):
+        if filename.endswith(".txt"):
+            file_path = os.path.join(folder, filename)
+            print(f"Processing: {filename}")
+
+            text = read_txt_file(file_path)
+            chunks = chunk_text_with_metadata(text)
+            all_chunks.extend(chunks)
+
+    print(f"Total chunks: {len(all_chunks)}")
+
+    # Save to JSON
+    output_file = "data/vectorstore.json"
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(all_chunks, f, ensure_ascii=False, indent=4)
+
+    print(f"Chunks with metadata saved to {output_file}")
+
+folder_path = "data/"
+process_folder_with_metadata(folder_path)

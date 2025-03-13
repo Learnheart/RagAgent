@@ -11,12 +11,11 @@ embed_model = FastEmbedEmbeddings(model_name="sentence-transformers/paraphrase-m
 groq_api_key = os.environ['GROQ_API_KEY']
 llm = ChatGroq(model_name='Llama3-8b-8192', api_key=groq_api_key)
 
-# persist_directory = '../real_estate_db/luat_dat_dai'
 script_dir = os.path.dirname(os.path.abspath(__file__))
-persist_directory = os.path.join(script_dir, "../real_estate_db/luat_dat_dai")
+persist_directory = os.path.join(script_dir, "../real_estate_db/vectorstore")
 persist_directory = os.path.normpath(persist_directory)
 
-vectorstore = Chroma(persist_directory=persist_directory, embedding_function=embed_model, collection_name="local-rag")
+vectorstore = Chroma(persist_directory=persist_directory, embedding_function=embed_model, collection_name="vectorstore")
 
 retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
 retriever_lambda = RunnableLambda(lambda x: retriever.get_relevant_documents(x["question"]))
