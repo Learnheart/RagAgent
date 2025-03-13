@@ -6,7 +6,7 @@ from langchain_community.embeddings.fastembed import FastEmbedEmbeddings
 from langchain_chroma import Chroma
 from langchain_core.runnables import RunnableLambda
 
-embed_model = FastEmbedEmbeddings(model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
+embed_model = FastEmbedEmbeddings(model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2", cache_dir="./embedding_cache" )
 
 groq_api_key = os.environ['GROQ_API_KEY']
 llm = ChatGroq(model_name='Llama3-8b-8192', api_key=groq_api_key)
