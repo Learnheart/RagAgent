@@ -1,0 +1,408 @@
+{
+  "test_cases": [
+    {
+      "id": "Q001",
+      "question": "Người sử dụng đất được hiểu như thế nào theo quy định của Luật Đất đai năm 2024?",
+      "expected_keywords": ["Người sử dụng đất", "Luật Đất đai 2024", "quyền sử dụng đất"]
+    },
+    {
+      "id": "Q002",
+      "question": "Thủ tục cấp giấy chứng nhận quyền sử dụng đất gồm những bước nào?",
+      "expected_keywords": ["giấy chứng nhận", "quyền sử dụng đất", "thủ tục", "hồ sơ"]
+    },
+    {
+      "id": "Q003",
+      "question": "Các loại đất theo Luật Đất đai 2024 là gì?",
+      "expected_keywords": ["loại đất", "Luật Đất đai 2024", "phân loại"]
+    },
+    {
+      "id": "Q004",
+      "question": "Thời hạn sử dụng đất nông nghiệp là bao lâu?",
+      "expected_keywords": ["thời hạn", "đất nông nghiệp", "sử dụng đất"]
+    },
+    {
+      "id": "Q005",
+      "question": "Nghĩa vụ tài chính khi sử dụng đất theo luật mới là gì?",
+      "expected_keywords": ["nghĩa vụ tài chính", "thuế", "tiền sử dụng đất", "tiền thuê đất"]
+    },
+    {
+      "id": "Q006",
+      "question": "Khi Nhà nước thu hồi đất thì người dân được bồi thường những gì?",
+      "expected_keywords": ["thu hồi đất", "bồi thường", "tái định cư", "hỗ trợ"]
+    },
+    {
+      "id": "Q007",
+      "question": "Giá đất được xác định như thế nào theo Luật Đất đai 2024?",
+      "expected_keywords": ["giá đất", "định giá", "thị trường", "Luật Đất đai 2024"]
+    },
+    {
+      "id": "Q008",
+      "question": "Tranh chấp đất đai được giải quyết bằng cách nào?",
+      "expected_keywords": ["tranh chấp đất đai", "giải quyết", "hòa giải", "tòa án"]
+    },
+    {
+      "id": "Q009",
+      "question": "Cơ quan nào có thẩm quyền giao đất cho hộ gia đình?",
+      "expected_keywords": ["thẩm quyền giao đất", "hộ gia đình", "ủy ban nhân dân"]
+    },
+    {
+      "id": "Q010",
+      "question": "Quyền của người sử dụng đất bao gồm những gì?",
+      "expected_keywords": ["quyền sử dụng đất", "chuyển nhượng", "thừa kế", "thế chấp"]
+    },
+    {
+      "id": "Q011",
+      "question": "Phân biệt đất nông nghiệp và đất phi nông nghiệp theo Luật Đất đai 2024?",
+      "expected_keywords": ["đất nông nghiệp", "đất phi nông nghiệp", "phân biệt", "mục đích sử dụng"]
+    },
+    {
+      "id": "Q012",
+      "question": "Các quy định mới về đất đai thương mại, dịch vụ trong Luật Đất đai 2024?",
+      "expected_keywords": ["thương mại, dịch vụ", "Luật Đất đai 2024", "quy định mới"]
+    },
+    {
+      "id": "Q013",
+      "question": "Những đối tượng nào được miễn, giảm tiền sử dụng đất theo Luật Đất đai 2024?",
+      "expected_keywords": ["miễn, giảm", "tiền sử dụng đất", "đối tượng", "ưu đãi"]
+    },
+    {
+      "id": "Q014",
+      "question": "Hình thức sử dụng đất nào được áp dụng cho người nước ngoài tại Việt Nam?",
+      "expected_keywords": ["người nước ngoài", "hình thức sử dụng đất", "cho thuê đất", "Luật Đất đai 2024"]
+    },
+    {
+      "id": "Q015",
+      "question": "Thời hạn cho thuê đất đối với doanh nghiệp FDI là bao lâu?",
+      "expected_keywords": ["thời hạn", "cho thuê đất", "doanh nghiệp FDI", "đầu tư nước ngoài"]
+    },
+    {
+      "id": "Q016",
+      "question": "Có những trường hợp nào được chuyển nhượng quyền sử dụng đất khi chưa có giấy chứng nhận?",
+      "expected_keywords": ["chuyển nhượng", "quyền sử dụng đất", "chưa có giấy chứng nhận", "điều kiện"]
+    },
+    {
+      "id": "Q017",
+      "question": "Việc chuyển đổi mục đích sử dụng từ đất trồng lúa sang đất phi nông nghiệp cần những thủ tục gì?",
+      "expected_keywords": ["chuyển đổi mục đích", "đất trồng lúa", "đất phi nông nghiệp", "thủ tục"]
+    },
+    {
+      "id": "Q018",
+      "question": "Các quy định về bảo vệ đất lúa trong Luật Đất đai 2024?",
+      "expected_keywords": ["bảo vệ", "đất lúa", "Luật Đất đai 2024", "an ninh lương thực"]
+    },
+    {
+      "id": "Q019",
+      "question": "Cá nhân có thể sở hữu bao nhiêu thửa đất ở tối đa theo quy định mới?",
+      "expected_keywords": ["sở hữu", "thửa đất ở", "tối đa", "hạn mức"]
+    },
+    {
+      "id": "Q020",
+      "question": "Quy định về đất đai liên quan đến người Việt Nam định cư ở nước ngoài?",
+      "expected_keywords": ["Việt kiều", "định cư ở nước ngoài", "quyền sử dụng đất", "sở hữu"]
+    },
+    {
+      "id": "Q021",
+      "question": "Thế nào là quy hoạch sử dụng đất theo Luật Đất đai 2024?",
+      "expected_keywords": ["quy hoạch", "sử dụng đất", "Luật Đất đai 2024", "kế hoạch"]
+    },
+    {
+      "id": "Q022",
+      "question": "Những hạn chế trong việc sử dụng đất thuộc hành lang bảo vệ an toàn công trình?",
+      "expected_keywords": ["hạn chế", "hành lang bảo vệ", "an toàn công trình", "sử dụng đất"]
+    },
+    {
+      "id": "Q023",
+      "question": "Điều kiện để được cấp sổ đỏ đối với đất có nguồn gốc là đất lấn chiếm?",
+      "expected_keywords": ["sổ đỏ", "đất lấn chiếm", "điều kiện", "hợp thức hóa"]
+    },
+    {
+      "id": "Q024",
+      "question": "Những trường hợp nào được tách thửa đất theo quy định mới?",
+      "expected_keywords": ["tách thửa", "điều kiện", "quy định mới", "diện tích tối thiểu"]
+    },
+    {
+      "id": "Q025",
+      "question": "Các quy định về đấu giá quyền sử dụng đất theo Luật Đất đai 2024?",
+      "expected_keywords": ["đấu giá", "quyền sử dụng đất", "Luật Đất đai 2024", "thủ tục"]
+    },
+    {
+      "id": "Q026",
+      "question": "Cơ chế xử lý đối với đất bỏ hoang theo quy định mới?",
+      "expected_keywords": ["đất bỏ hoang", "xử lý", "thu hồi", "Luật Đất đai 2024"]
+    },
+    {
+      "id": "Q027",
+      "question": "Các hình thức giao đất không thu tiền sử dụng đất được áp dụng cho những đối tượng nào?",
+      "expected_keywords": ["giao đất", "không thu tiền", "đối tượng", "Luật Đất đai 2024"]
+    },
+    {
+      "id": "Q028",
+      "question": "Điều kiện để được bồi thường khi Nhà nước thu hồi đất?",
+      "expected_keywords": ["bồi thường", "thu hồi đất", "điều kiện", "hợp pháp"]
+    },
+    {
+      "id": "Q029",
+      "question": "Các biện pháp bảo vệ đất có rừng đặc dụng theo quy định mới?",
+      "expected_keywords": ["bảo vệ", "đất có rừng đặc dụng", "biện pháp", "quy định mới"]
+    },
+    {
+      "id": "Q030",
+      "question": "Thẩm quyền giải quyết tranh chấp đất đai giữa cá nhân và tổ chức thuộc về ai?",
+      "expected_keywords": ["thẩm quyền", "giải quyết tranh chấp", "cá nhân và tổ chức", "Tòa án"]
+    },
+    {
+      "id": "Q031",
+      "question": "Phân biệt giữa thu hồi đất và trưng dụng đất theo luật mới?",
+      "expected_keywords": ["thu hồi đất", "trưng dụng đất", "phân biệt", "tạm thời"]
+    },
+    {
+      "id": "Q032",
+      "question": "Nghĩa vụ thuế của người được thừa kế quyền sử dụng đất?",
+      "expected_keywords": ["nghĩa vụ thuế", "thừa kế", "quyền sử dụng đất", "thuế thu nhập"]
+    },
+    {
+      "id": "Q033",
+      "question": "Những điểm mới về đất công theo Luật Đất đai 2024?",
+      "expected_keywords": ["đất công", "Luật Đất đai 2024", "quản lý", "sử dụng"]
+    },
+    {
+      "id": "Q034",
+      "question": "Hồ sơ địa chính bao gồm những tài liệu gì?",
+      "expected_keywords": ["hồ sơ địa chính", "tài liệu", "bản đồ", "sổ địa chính"]
+    },
+    {
+      "id": "Q035",
+      "question": "Các biện pháp xử lý vi phạm pháp luật về đất đai?",
+      "expected_keywords": ["xử lý vi phạm", "pháp luật đất đai", "biện pháp", "xử phạt"]
+    },
+    {
+      "id": "Q036",
+      "question": "Điều kiện chuyển nhượng dự án bất động sản theo quy định mới?",
+      "expected_keywords": ["chuyển nhượng", "dự án bất động sản", "điều kiện", "quy định mới"]
+    },
+    {
+      "id": "Q037",
+      "question": "Quy định về đất quốc phòng, an ninh theo Luật Đất đai 2024?",
+      "expected_keywords": ["đất quốc phòng, an ninh", "Luật Đất đai 2024", "quản lý", "sử dụng"]
+    },
+    {
+      "id": "Q038",
+      "question": "Các quy định về bảo vệ môi trường đất trong Luật Đất đai 2024?",
+      "expected_keywords": ["bảo vệ môi trường", "đất", "Luật Đất đai 2024", "ô nhiễm"]
+    },
+    {
+      "id": "Q039",
+      "question": "Quy trình xác định giá đất cụ thể khi Nhà nước thu hồi đất?",
+      "expected_keywords": ["giá đất cụ thể", "thu hồi đất", "quy trình", "định giá"]
+    },
+    {
+      "id": "Q040",
+      "question": "Cách tính tiền thuê đất hàng năm đối với đất thuê của Nhà nước?",
+      "expected_keywords": ["tiền thuê đất", "hàng năm", "cách tính", "đất thuê"]
+    },
+    {
+      "id": "Q041",
+      "question": "Các quy định về đăng ký biến động đất đai theo Luật Đất đai 2024?",
+      "expected_keywords": ["đăng ký biến động", "đất đai", "Luật Đất đai 2024", "thủ tục"]
+    },
+    {
+      "id": "Q042",
+      "question": "Các quy định về việc xây dựng công trình ngầm dưới đất?",
+      "expected_keywords": ["công trình ngầm", "dưới đất", "quy định", "xây dựng"]
+    },
+    {
+      "id": "Q043",
+      "question": "Làm thế nào để phân biệt giữa đất ở và đất ở có vườn, ao?",
+      "expected_keywords": ["đất ở", "đất ở có vườn, ao", "phân biệt", "quy định"]
+    },
+    {
+      "id": "Q044",
+      "question": "Quyền và nghĩa vụ của tổ chức nhận chuyển nhượng quyền sử dụng đất nông nghiệp là gì?",
+      "expected_keywords": ["tổ chức", "chuyển nhượng", "đất nông nghiệp", "quyền và nghĩa vụ"]
+    },
+    {
+      "id": "Q045",
+      "question": "Thủ tục đính chính Giấy chứng nhận quyền sử dụng đất khi có sai sót?",
+      "expected_keywords": ["đính chính", "Giấy chứng nhận", "sai sót", "thủ tục"]
+    },
+    {
+      "id": "Q046",
+      "question": "Đối với trường hợp sử dụng đất trái phép, hình thức xử lý là gì?",
+      "expected_keywords": ["sử dụng đất trái phép", "xử lý", "hình thức", "vi phạm"]
+    },
+    {
+      "id": "Q047",
+      "question": "Vai trò của cơ quan tài nguyên môi trường trong quản lý đất đai là gì?",
+      "expected_keywords": ["cơ quan tài nguyên môi trường", "quản lý đất đai", "vai trò", "thẩm quyền"]
+    },
+    {
+      "id": "Q048",
+      "question": "Điều kiện để người nước ngoài được thuê đất xây dựng nhà ở tại Việt Nam?",
+      "expected_keywords": ["người nước ngoài", "thuê đất", "xây dựng nhà ở", "điều kiện"]
+    },
+    {
+      "id": "Q049",
+      "question": "Quy định về diện tích tối thiểu được tách thửa đất ở đô thị?",
+      "expected_keywords": ["diện tích tối thiểu", "tách thửa", "đất ở đô thị", "quy định"]
+    },
+    {
+      "id": "Q050",
+      "question": "Thẩm quyền phê duyệt quy hoạch sử dụng đất cấp tỉnh thuộc về ai?",
+      "expected_keywords": ["thẩm quyền", "phê duyệt", "quy hoạch sử dụng đất", "cấp tỉnh"]
+    },
+    {
+      "id": "Q051",
+      "question": "Phạm vi đất hành lang bảo vệ an toàn đường dây điện cao thế là bao nhiêu?",
+      "expected_keywords": ["hành lang bảo vệ", "đường dây điện cao thế", "phạm vi", "quy định"]
+    },
+    {
+      "id": "Q052",
+      "question": "Các biện pháp phòng, chống xói mòn, rửa trôi đất theo Luật Đất đai 2024?",
+      "expected_keywords": ["phòng chống", "xói mòn, rửa trôi đất", "biện pháp", "Luật Đất đai 2024"]
+    },
+    {
+      "id": "Q053",
+      "question": "Quy định về chuyển nhượng quyền thuê đất trong khu công nghiệp?",
+      "expected_keywords": ["chuyển nhượng", "quyền thuê đất", "khu công nghiệp", "quy định"]
+    },
+    {
+      "id": "Q054",
+      "question": "Quy định về việc góp vốn bằng quyền sử dụng đất để thành lập doanh nghiệp?",
+      "expected_keywords": ["góp vốn", "quyền sử dụng đất", "thành lập doanh nghiệp", "quy định"]
+    },
+    {
+      "id": "Q055",
+      "question": "Đất nhận chuyển nhượng từ doanh nghiệp khác có được miễn tiền sử dụng đất không?",
+      "expected_keywords": ["nhận chuyển nhượng", "doanh nghiệp", "miễn tiền sử dụng đất", "quy định"]
+    },
+    {
+      "id": "Q056",
+      "question": "Quy trình giải quyết khiếu nại về bồi thường khi thu hồi đất?",
+      "expected_keywords": ["khiếu nại", "bồi thường", "thu hồi đất", "quy trình giải quyết"]
+    },
+    {
+      "id": "Q057",
+      "question": "Đất đai thuộc di tích lịch sử - văn hóa được quản lý như thế nào?",
+      "expected_keywords": ["đất đai", "di tích lịch sử - văn hóa", "quản lý", "quy định"]
+    },
+    {
+      "id": "Q058",
+      "question": "Quy định về cấp đổi Giấy chứng nhận quyền sử dụng đất?",
+      "expected_keywords": ["cấp đổi", "Giấy chứng nhận", "quyền sử dụng đất", "thủ tục"]
+    },
+    {
+      "id": "Q059",
+      "question": "Hạn mức nhận chuyển quyền sử dụng đất nông nghiệp của hộ gia đình, cá nhân?",
+      "expected_keywords": ["hạn mức", "chuyển quyền sử dụng đất", "đất nông nghiệp", "hộ gia đình, cá nhân"]
+    },
+    {
+      "id": "Q060",
+      "question": "Quy định về việc sử dụng đất xây dựng công trình công cộng có mục đích kinh doanh?",
+      "expected_keywords": ["sử dụng đất", "công trình công cộng", "mục đích kinh doanh", "quy định"]
+    },
+    {
+      "id": "Q061",
+      "question": "Cơ sở pháp lý để thực hiện việc thu hồi đất vì mục đích quốc phòng, an ninh?",
+      "expected_keywords": ["cơ sở pháp lý", "thu hồi đất", "quốc phòng, an ninh", "Luật Đất đai 2024"]
+    },
+    {
+      "id": "Q062",
+      "question": "Các trường hợp được cấp Giấy chứng nhận quyền sử dụng đất không phải nộp tiền sử dụng đất?",
+      "expected_keywords": ["Giấy chứng nhận", "không phải nộp tiền", "quyền sử dụng đất", "trường hợp"]
+    },
+    {
+      "id": "Q063",
+      "question": "Quy định về thời hạn sử dụng đất đối với đất được giao để xây dựng nhà ở để bán?",
+      "expected_keywords": ["thời hạn sử dụng đất", "xây dựng nhà ở để bán", "giao đất", "quy định"]
+    },
+    {
+      "id": "Q064",
+      "question": "Quy định về việc chuyển nhượng một phần thửa đất?",
+      "expected_keywords": ["chuyển nhượng", "một phần thửa đất", "quy định", "thủ tục"]
+    },
+    {
+      "id": "Q065",
+      "question": "Phương pháp định giá đất thu hồi để bồi thường theo Luật Đất đai 2024?",
+      "expected_keywords": ["phương pháp định giá", "đất thu hồi", "bồi thường", "Luật Đất đai 2024"]
+    },
+    {
+      "id": "Q066",
+      "question": "Trường hợp nào được cấp Giấy chứng nhận quyền sử dụng đất theo diện tích đất đang sử dụng?",
+      "expected_keywords": ["cấp Giấy chứng nhận", "diện tích đất đang sử dụng", "trường hợp", "quy định"]
+    },
+    {
+      "id": "Q067",
+      "question": "Đất tôn giáo được quản lý và sử dụng như thế nào theo Luật Đất đai 2024?",
+      "expected_keywords": ["đất tôn giáo", "quản lý và sử dụng", "Luật Đất đai 2024", "cơ sở tôn giáo"]
+    },
+    {
+      "id": "Q068",
+      "question": "Quy định về việc sử dụng đất trong khu kinh tế, khu công nghệ cao?",
+      "expected_keywords": ["sử dụng đất", "khu kinh tế", "khu công nghệ cao", "quy định"]
+    },
+    {
+      "id": "Q069",
+      "question": "Quyền và nghĩa vụ của người sử dụng đất khi Nhà nước thu hồi đất để phát triển kinh tế - xã hội vì lợi ích quốc gia, công cộng?",
+      "expected_keywords": ["quyền và nghĩa vụ", "người sử dụng đất", "thu hồi đất", "lợi ích quốc gia, công cộng"]
+    },
+    {
+      "id": "Q070",
+      "question": "Mức giá đất cụ thể được xác định như thế nào khi Nhà nước giao đất có thu tiền sử dụng đất?",
+      "expected_keywords": ["mức giá đất cụ thể", "giao đất", "thu tiền sử dụng đất", "xác định"]
+    },
+    {
+      "id": "Q071",
+      "question": "Những hạn chế quyền của người sử dụng đất khi sử dụng đất có thời hạn?",
+      "expected_keywords": ["hạn chế quyền", "người sử dụng đất", "đất có thời hạn", "quy định"]
+    },
+    {
+      "id": "Q072",
+      "question": "Thẩm quyền cấp Giấy chứng nhận quyền sử dụng đất thuộc về ai?",
+      "expected_keywords": ["thẩm quyền", "cấp Giấy chứng nhận", "quyền sử dụng đất", "cơ quan"]
+    },
+    {
+      "id": "Q073",
+      "question": "Quy định về việc sử dụng đất khoanh nuôi, bảo vệ, phát triển rừng ở nơi đất trống, đồi núi trọc?",
+      "expected_keywords": ["sử dụng đất", "khoanh nuôi, bảo vệ", "đất trống, đồi núi trọc", "phát triển rừng"]
+    },
+    {
+      "id": "Q074",
+      "question": "Quy định mới về cơ sở dữ liệu đất đai theo Luật Đất đai 2024?",
+      "expected_keywords": ["cơ sở dữ liệu đất đai", "Luật Đất đai 2024", "quy định mới", "hệ thống thông tin"]
+    },
+    {
+      "id": "Q075",
+      "question": "Các biện pháp bảo đảm thực hiện quyền và nghĩa vụ của người sử dụng đất?",
+      "expected_keywords": ["biện pháp bảo đảm", "quyền và nghĩa vụ", "người sử dụng đất", "thực hiện"]
+    },
+    {
+      "id": "Q076",
+      "question": "Các quy định về đăng ký đất đai lần đầu?",
+      "expected_keywords": ["đăng ký đất đai", "lần đầu", "quy định", "thủ tục"]
+    },
+    {
+      "id": "Q077",
+      "question": "Quy định về định giá đất trong các giao dịch về quyền sử dụng đất?",
+      "expected_keywords": ["định giá đất", "giao dịch", "quyền sử dụng đất", "quy định"]
+    },
+    {
+      "id": "Q078",
+      "question": "Điều kiện để thực hiện giao dịch chuyển nhượng quyền sử dụng đất thông qua sàn giao dịch bất động sản?",
+      "expected_keywords": ["giao dịch chuyển nhượng", "quyền sử dụng đất", "sàn giao dịch bất động sản", "điều kiện"]
+    },
+    {
+      "id": "Q079",
+      "question": "Quy định mới về hạn chế phân lô, bán nền theo Luật Đất đai 2024?",
+      "expected_keywords": ["hạn chế", "phân lô, bán nền", "Luật Đất đai 2024", "quy định mới"]
+    },
+    {
+      "id": "Q080",
+      "question": "Điều kiện để thực hiện quyền chuyển đổi mục đích sử dụng đất?",
+      "expected_keywords": ["điều kiện", "chuyển đổi mục đích", "sử dụng đất", "quyền"]
+    },
+    {
+      "id": "Q081",
+      "question": "Các biện pháp giải quyết đối với đất đô thị bị lấn chiếm?",
+      "expected_keywords": ["biện pháp giải quyết", "đất đô thị", "lấn chiếm", "xử lý"]
+    }]
+}

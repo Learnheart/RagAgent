@@ -1,0 +1,957 @@
+test_id,question,doc_id,llm_relevance,keywords_found,found_keywords,document_preview,manual_relevance,notes
+Q001,Người sử dụng đất được hiểu như thế nào theo quy định của Luật Đất đai năm 2024?,Q001_doc1,False,1/3,quyền sử dụng đất,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q001,Người sử dụng đất được hiểu như thế nào theo quy định của Luật Đất đai năm 2024?,Q001_doc2,False,1/3,quyền sử dụng đất,"Điều 28.Nhận quyền sử dụng đất
+1",,
+Q001,Người sử dụng đất được hiểu như thế nào theo quy định của Luật Đất đai năm 2024?,Q001_doc3,True,2/3,"Người sử dụng đất, quyền sử dụng đất","; đ) Người sử dụng đất được cấp Giấy
+chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất quy định tại
+khoản này thì phải thực hiện nghĩa vụ tài chính theo quy định của pháp luật; 4",,
+Q002,Thủ tục cấp giấy chứng nhận quyền sử dụng đất gồm những bước nào?,Q002_doc1,True,1/4,quyền sử dụng đất,"; đ) Người sử dụng đất được cấp Giấy
+chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất quy định tại
+khoản này thì phải thực hiện nghĩa vụ tài chính theo quy định của pháp luật; 4",,
+Q002,Thủ tục cấp giấy chứng nhận quyền sử dụng đất gồm những bước nào?,Q002_doc2,False,2/4,"giấy chứng nhận, quyền sử dụng đất","Điều 151.
+Các trường hợp không cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản
+gắn liền với đất
+1",,
+Q002,Thủ tục cấp giấy chứng nhận quyền sử dụng đất gồm những bước nào?,Q002_doc3,True,2/4,"giấy chứng nhận, quyền sử dụng đất",". 4. Người được Nhà nước giao đất
+quy định tại khoản 1 Điều này được cấp Giấy chứng nhận quyền sử dụng đất, quyền
+sở hữu tài sản gắn liền với đất nhưng không được ghi nhận tài sản là tài sản
+công trên Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với
+đất.",,
+Q003,Các loại đất theo Luật Đất đai 2024 là gì?,Q003_doc1,False,0/3,,"; đ) Đất đã có quyết
+định thu hồi đất của cơ quan nhà nước có thẩm quyền, trừ trường hợp đã quá 03
+năm kể từ thời điểm có quyết định thu hồi đất mà không thực hiện; e) Đất đang có
+tranh chấp, đang bị kê biên, áp dụng biện pháp khác để bảo đảm thi hành án theo
+quy định của pháp luật về thi hành án dâ...",,
+Q003,Các loại đất theo Luật Đất đai 2024 là gì?,Q003_doc2,False,0/3,,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q003,Các loại đất theo Luật Đất đai 2024 là gì?,Q003_doc3,True,1/3,loại đất,". 4. Nhóm đất chưa sử dụng là đất chưa xác định mục đích sử dụng và chưa
+giao, chưa cho thuê. 5. Chính phủ quy định
+chi tiết các loại đất tại Điều này.",,
+Q004,Thời hạn sử dụng đất nông nghiệp là bao lâu?,Q004_doc1,True,3/3,"thời hạn, đất nông nghiệp, sử dụng đất",". Thời hạn sử dụng đất đối với mỗi lần thuê không quá 10 năm. 4. Quỹ đất nông nghiệp sử dụng
+vào mục đích công ích của xã, phường, thị trấn do Ủy ban nhân dân cấp xã nơi có
+đất quản lý, sử dụng theo quy hoạch, kế hoạch sử dụng đất đã được cơ quan có thẩm
+quyền phê duyệt.",,
+Q004,Thời hạn sử dụng đất nông nghiệp là bao lâu?,Q004_doc2,False,2/3,"thời hạn, sử dụng đất",". 3. Thời hạn sử dụng đất đối với
+trường hợp chuyển mục đích sử dụng từ đất phi nông nghiệp sử dụng ổn định lâu
+dài sang đất phi nông nghiệp sử dụng có thời hạn hoặc từ đất phi nông nghiệp sử
+dụng có thời hạn sang đất phi nông nghiệp sử dụng ổn định lâu dài là ổn định
+lâu dài.",,
+Q004,Thời hạn sử dụng đất nông nghiệp là bao lâu?,Q004_doc3,True,3/3,"thời hạn, đất nông nghiệp, sử dụng đất",". Thời hạn sử dụng đất được
+tính từ thời điểm có quyết định cho phép chuyển mục đích sử dụng đất; b) Trường hợp chuyển đất trồng
+cây hằng năm, đất trồng cây lâu năm, đất rừng sản xuất, đất nuôi trồng thủy sản,
+đất làm muối sang đất rừng đặc dụng, đất rừng phòng hộ thì thời hạn sử dụng đất
+là ổn định...",,
+Q005,Nghĩa vụ tài chính khi sử dụng đất theo luật mới là gì?,Q005_doc1,True,1/4,nghĩa vụ tài chính,"; đ) Người sử dụng đất được cấp Giấy
+chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất quy định tại
+khoản này thì phải thực hiện nghĩa vụ tài chính theo quy định của pháp luật; 4",,
+Q005,Nghĩa vụ tài chính khi sử dụng đất theo luật mới là gì?,Q005_doc2,False,1/4,tiền sử dụng đất,"; c) Quyền và nghĩa vụ quy định tại khoản 3 điều 41 của Luật này đối với trường hợp quyền sử dụng
+đất do nhận góp vốn trước đó được sử dụng để thực hiện các dự án đầu tư nhà ở để
+bán và tổ chức kinh tế có vốn đầu tư nước ngoài được Nhà nước giao đất có thu
+tiền sử dụng đất theo quy định của Luật này",,
+Q005,Nghĩa vụ tài chính khi sử dụng đất theo luật mới là gì?,Q005_doc3,True,0/4,,"; e) Đất sử dụng cho hoạt động
+khoáng sản được trả lại theo quy định trong hợp đồng thuê đất; g) Đất hình thành từ hoạt động lấn
+biển sử dụng vốn ngân sách nhà nước; h) Đất thu hồi trong trường hợp
+quy định tại khoản 29 điều 79 của Luật này",,
+Q006,Khi Nhà nước thu hồi đất thì người dân được bồi thường những gì?,Q006_doc1,True,2/4,"thu hồi đất, bồi thường","Điều 95. Điều
+kiện được bồi thường về đất khi Nhà nước thu hồi đất vì mục đích quốc phòng, an
+ninh; phát triển kinh tế - xã hội vì lợi ích quốc gia, công cộng
+1",,
+Q006,Khi Nhà nước thu hồi đất thì người dân được bồi thường những gì?,Q006_doc2,True,1/4,bồi thường,". 3. Chính phủ quy định trường hợp khác được bồi thường về đất và điều kiện
+được bồi thường về đất.",,
+Q006,Khi Nhà nước thu hồi đất thì người dân được bồi thường những gì?,Q006_doc3,True,2/4,"thu hồi đất, bồi thường",". 4. Cộng đồng dân cư, tổ chức tôn
+giáo, tổ chức tôn giáo trực thuộc đang sử dụng đất phi nông nghiệp khi Nhà nước
+thu hồi đất, nếu có đủ điều kiện được bồi thường quy định tại điều
+95 của Luật này thì được bồi thường về đất. 5. Chính phủ quy định chi tiết
+Điều này.",,
+Q007,Giá đất được xác định như thế nào theo Luật Đất đai 2024?,Q007_doc1,True,3/4,"giá đất, định giá, thị trường",". Hệ số điều chỉnh
+giá đất được xác định thông qua việc so sánh giá đất trong bảng giá đất với giá
+đất thị trường; đ) Chính phủ quy định phương
+pháp định giá đất khác chưa được quy định tại các điểm a, b, c và d khoản này
+sau khi được sự đồng ý của Ủy ban Thường vụ Quốc hội. 6",,
+Q007,Giá đất được xác định như thế nào theo Luật Đất đai 2024?,Q007_doc2,False,0/4,,". Thời hạn thanh toán: ………………….. (Các bên thỏa thuận về
+tiến độ, thời hạn, điều kiện thanh toán để ghi vào hợp đồng).
+(Các bên thỏa thuận cụ thể tiến độ thanh toán tiền nhận
+chuyển nhượng quyền sử dụng đất, kể cả thời hạn thanh toán trong trường hợp có
+chênh lệch về diện tích đất thực tế khi bàn gia...",,
+Q007,Giá đất được xác định như thế nào theo Luật Đất đai 2024?,Q007_doc3,False,0/4,,"; e) Phân kỳ quy hoạch sử dụng đất
+05 năm cấp huyện theo các điểm b, c, d và đ khoản này; g) Giải pháp, nguồn lực thực hiện
+quy hoạch sử dụng đất",,
+Q008,Tranh chấp đất đai được giải quyết bằng cách nào?,Q008_doc1,False,0/4,,"; e) Phân kỳ quy hoạch sử dụng đất
+05 năm cấp huyện theo các điểm b, c, d và đ khoản này; g) Giải pháp, nguồn lực thực hiện
+quy hoạch sử dụng đất",,
+Q008,Tranh chấp đất đai được giải quyết bằng cách nào?,Q008_doc2,False,0/4,,". 3. Chính phủ quy định trường hợp khác được bồi thường về đất và điều kiện
+được bồi thường về đất.",,
+Q008,Tranh chấp đất đai được giải quyết bằng cách nào?,Q008_doc3,False,0/4,,"; e) Đất sử dụng cho hoạt động
+khoáng sản được trả lại theo quy định trong hợp đồng thuê đất; g) Đất hình thành từ hoạt động lấn
+biển sử dụng vốn ngân sách nhà nước; h) Đất thu hồi trong trường hợp
+quy định tại khoản 29 điều 79 của Luật này",,
+Q009,Cơ quan nào có thẩm quyền giao đất cho hộ gia đình?,Q009_doc1,True,0/3,,". 4. Cơ quan nhà nước có thẩm quyền
+có trách nhiệm cấp giấy chứng nhận về quyền sử dụng đất, quyền sở hữu tài sản gắn
+liền với đất theo quy định của pháp luật về đất đai.",,
+Q009,Cơ quan nào có thẩm quyền giao đất cho hộ gia đình?,Q009_doc2,False,0/3,,"; đ) Người sử dụng đất được cấp Giấy
+chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất quy định tại
+khoản này thì phải thực hiện nghĩa vụ tài chính theo quy định của pháp luật; 4",,
+Q009,Cơ quan nào có thẩm quyền giao đất cho hộ gia đình?,Q009_doc3,False,1/3,hộ gia đình,"Điều 137. Cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn
+liền với đất đối với hộ gia đình, cá nhân, cộng đồng dân cư đang sử dụng đất có
+giấy tờ về quyền sử dụng đất
+1",,
+Q010,Quyền của người sử dụng đất bao gồm những gì?,Q010_doc1,True,1/4,quyền sử dụng đất,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q010,Quyền của người sử dụng đất bao gồm những gì?,Q010_doc2,True,1/4,quyền sử dụng đất,"Điều 28.Nhận quyền sử dụng đất
+1",,
+Q010,Quyền của người sử dụng đất bao gồm những gì?,Q010_doc3,False,2/4,"quyền sử dụng đất, chuyển nhượng",". Bàn giao quyền sử dụng đất
+a) Việc bàn giao quyền sử dụng đất phải được các bên lập
+thành biên bản, tuân thủ đúng quy định của pháp luật về đất đai.
+b) Bên chuyển nhượng có trách nhiệm bàn giao cho Bên nhận
+chuyển nhượng các giấy tờ pháp lý về quyền sử dụng đất kèm theo quyền sử dụng
+đất:
+- Bản gố...",,
+Q011,Phân biệt đất nông nghiệp và đất phi nông nghiệp theo Luật Đất đai 2024?,Q011_doc1,False,0/4,,". 3. Đối với đất
+nông nghiệp đã sử dụng trước ngày 01 tháng 7 năm 2004 mà người sử dụng đất là hộ
+gia đình, cá nhân trực tiếp sản xuất nông nghiệp nhưng không đủ điều kiện để được
+cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với
+đất theo quy định của Luật này thì việc bồi thư...",,
+Q011,Phân biệt đất nông nghiệp và đất phi nông nghiệp theo Luật Đất đai 2024?,Q011_doc2,False,0/4,,". 3. Chính phủ quy định trường hợp khác được bồi thường về đất và điều kiện
+được bồi thường về đất.",,
+Q011,Phân biệt đất nông nghiệp và đất phi nông nghiệp theo Luật Đất đai 2024?,Q011_doc3,False,1/4,đất nông nghiệp,". Thời hạn sử dụng đất đối với mỗi lần thuê không quá 10 năm. 4. Quỹ đất nông nghiệp sử dụng
+vào mục đích công ích của xã, phường, thị trấn do Ủy ban nhân dân cấp xã nơi có
+đất quản lý, sử dụng theo quy hoạch, kế hoạch sử dụng đất đã được cơ quan có thẩm
+quyền phê duyệt.",,
+Q012,"Các quy định mới về đất đai thương mại, dịch vụ trong Luật Đất đai 2024?",Q012_doc1,False,0/3,,". Thời hạn thanh toán: ………………….. (Các bên thỏa thuận về
+tiến độ, thời hạn, điều kiện thanh toán để ghi vào hợp đồng).
+(Các bên thỏa thuận cụ thể tiến độ thanh toán tiền nhận
+chuyển nhượng quyền sử dụng đất, kể cả thời hạn thanh toán trong trường hợp có
+chênh lệch về diện tích đất thực tế khi bàn gia...",,
+Q012,"Các quy định mới về đất đai thương mại, dịch vụ trong Luật Đất đai 2024?",Q012_doc2,False,0/3,,". Bàn giao quyền sử dụng đất
+a) Việc bàn giao quyền sử dụng đất phải được các bên lập
+thành biên bản, tuân thủ đúng quy định của pháp luật về đất đai.
+b) Bên chuyển nhượng có trách nhiệm bàn giao cho Bên nhận
+chuyển nhượng các giấy tờ pháp lý về quyền sử dụng đất kèm theo quyền sử dụng
+đất:
+- Bản gố...",,
+Q012,"Các quy định mới về đất đai thương mại, dịch vụ trong Luật Đất đai 2024?",Q012_doc3,False,0/3,,". 4. Cơ quan nhà nước có thẩm quyền
+có trách nhiệm cấp giấy chứng nhận về quyền sử dụng đất, quyền sở hữu tài sản gắn
+liền với đất theo quy định của pháp luật về đất đai.",,
+Q013,"Những đối tượng nào được miễn, giảm tiền sử dụng đất theo Luật Đất đai 2024?",Q013_doc1,True,2/4,"miễn, giảm, tiền sử dụng đất","Điều 157. Miễn, giảm tiền sử dụng đất, tiền thuê đất
+1",,
+Q013,"Những đối tượng nào được miễn, giảm tiền sử dụng đất theo Luật Đất đai 2024?",Q013_doc2,False,0/4,,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q013,"Những đối tượng nào được miễn, giảm tiền sử dụng đất theo Luật Đất đai 2024?",Q013_doc3,False,0/4,,". 3. Chính phủ quy định trường hợp khác được bồi thường về đất và điều kiện
+được bồi thường về đất.",,
+Q014,Hình thức sử dụng đất nào được áp dụng cho người nước ngoài tại Việt Nam?,Q014_doc1,False,1/4,người nước ngoài,"Điều 44.
+Quyền và nghĩa vụ về sử dụng đất ở của người gốc Việt Nam định cư ở nước ngoài
+được sở hữu nhà ở tại Việt Nam; người nước ngoài hoặc người gốc Việt Nam định
+cư ở nước ngoài không thuộc đối tượng được sở hữu nhà ở gắn liền với quyền sử dụng
+đất ở tại Việt Nam
+1. Người gốc Việt Nam định cư ở
+...",,
+Q014,Hình thức sử dụng đất nào được áp dụng cho người nước ngoài tại Việt Nam?,Q014_doc2,True,0/4,,"Điều 41. Quyền và nghĩa vụ của người gốc Việt Nam định cư ở nước
+ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài sử dụng đất để thực hiện dự án
+đầu tư tại Việt Nam
+1. Người gốc Việt Nam định cư ở
+nước ngoài về đầu tư tại Việt Nam được Nhà nước giao đất có thu tiền sử dụng đất
+có các quyền và nghĩa v...",,
+Q014,Hình thức sử dụng đất nào được áp dụng cho người nước ngoài tại Việt Nam?,Q014_doc3,False,0/4,,"Điều 2. Đối
+tượng áp dụng
+1. Tổ chức, cá nhân kinh doanh
+bất động sản tại Việt Nam. 2. Cơ quan, tổ chức, cá nhân có
+liên quan đến kinh doanh bất động sản tại Việt Nam.",,
+Q015,Thời hạn cho thuê đất đối với doanh nghiệp FDI là bao lâu?,Q015_doc1,False,1/4,thời hạn,". Thời hạn thanh toán: ………………….. (Các bên thỏa thuận về
+tiến độ, thời hạn, điều kiện thanh toán để ghi vào hợp đồng).
+(Các bên thỏa thuận cụ thể tiến độ thanh toán tiền nhận
+chuyển nhượng quyền sử dụng đất, kể cả thời hạn thanh toán trong trường hợp có
+chênh lệch về diện tích đất thực tế khi bàn gia...",,
+Q015,Thời hạn cho thuê đất đối với doanh nghiệp FDI là bao lâu?,Q015_doc2,False,1/4,thời hạn,". Thời hạn thanh toán:
+a) Thời hạn thanh toán tiền mua căn hộ (không bao gồm kinh
+phí bảo trì phần sở hữu chung 2%): ……………………………… (Các bên thỏa thuận cụ thể
+tiến độ thanh toán tiền mua căn hộ, kể cả thời hạn thanh toán trong trường hợp
+có chênh lệch về diện tích sử dụng thực tế khi bàn giao căn hộ, ...",,
+Q015,Thời hạn cho thuê đất đối với doanh nghiệp FDI là bao lâu?,Q015_doc3,True,1/4,thời hạn,". Thời hạn thuê đất là: tháng ………………………………………….. (hoặc năm)
+2. Thời hạn thuê bắt đầu từ ngày: .................................................................................
+3. Gia hạn thời hạn thuê: ..............................................................................................
+4. ...",,
+Q016,Có những trường hợp nào được chuyển nhượng quyền sử dụng đất khi chưa có giấy chứng nhận?,Q016_doc1,True,1/4,quyền sử dụng đất,"Điều 151.
+Các trường hợp không cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản
+gắn liền với đất
+1",,
+Q016,Có những trường hợp nào được chuyển nhượng quyền sử dụng đất khi chưa có giấy chứng nhận?,Q016_doc2,False,2/4,"chuyển nhượng, quyền sử dụng đất",". Trong trường hợp có tranh chấp về khoản tiền chuyển nhượng
+quyền sử dụng đất này thì hợp đồng này vẫn có hiệu lực đối với hai bên;
+d) Cung cấp các giấy tờ cần thiết khi Bên chuyển nhượng yêu
+cầu theo quy định của pháp luật để làm thủ tục cấp Giấy chứng nhận cho Bên nhận
+chuyển nhượng;
+đ) Các cam k...",,
+Q016,Có những trường hợp nào được chuyển nhượng quyền sử dụng đất khi chưa có giấy chứng nhận?,Q016_doc3,False,1/4,quyền sử dụng đất,"; c) Trong trường hợp chưa chuyển
+nhượng hoặc chưa tặng cho quyền sử dụng đất thì người nhận thừa kế hoặc người đại
+diện theo ủy quyền bằng văn bản nộp hồ sơ về việc nhận thừa kế tại tổ chức đăng
+ký đất đai để cập nhật vào Sổ địa chính",,
+Q017,Việc chuyển đổi mục đích sử dụng từ đất trồng lúa sang đất phi nông nghiệp cần những thủ tục gì?,Q017_doc1,False,0/4,,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q017,Việc chuyển đổi mục đích sử dụng từ đất trồng lúa sang đất phi nông nghiệp cần những thủ tục gì?,Q017_doc2,False,0/4,,". 3. Đối với đất
+nông nghiệp đã sử dụng trước ngày 01 tháng 7 năm 2004 mà người sử dụng đất là hộ
+gia đình, cá nhân trực tiếp sản xuất nông nghiệp nhưng không đủ điều kiện để được
+cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với
+đất theo quy định của Luật này thì việc bồi thư...",,
+Q017,Việc chuyển đổi mục đích sử dụng từ đất trồng lúa sang đất phi nông nghiệp cần những thủ tục gì?,Q017_doc3,True,2/4,"đất trồng lúa, thủ tục",". 5. Ủy ban nhân dân cấp tỉnh sử dụng
+nguồn kinh phí thu được từ nguồn thu khi cho phép chuyển mục đích đất trồng lúa
+sang sử dụng vào mục đích khác và nguồn kinh phí hợp pháp khác để phục vụ việc
+cải tạo, đưa đất chưa sử dụng vào sử dụng. Chương
+XIV THỦ TỤC HÀNH CHÍNH VỀ ĐẤT
+ĐAI",,
+Q018,Các quy định về bảo vệ đất lúa trong Luật Đất đai 2024?,Q018_doc1,False,0/4,,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q018,Các quy định về bảo vệ đất lúa trong Luật Đất đai 2024?,Q018_doc2,False,0/4,,"Điều 28.Nhận quyền sử dụng đất
+1",,
+Q018,Các quy định về bảo vệ đất lúa trong Luật Đất đai 2024?,Q018_doc3,False,0/4,,"; c) Quyền sử dụng đất không bị kê
+biên, áp dụng biện pháp khác để bảo đảm thi hành án theo quy định của pháp luật
+thi hành án dân sự; d) Trong thời hạn sử dụng đất; đ) Quyền sử dụng đất không bị áp
+dụng biện pháp khẩn cấp tạm thời theo quy định của pháp luật",,
+Q019,Cá nhân có thể sở hữu bao nhiêu thửa đất ở tối đa theo quy định mới?,Q019_doc1,False,0/4,,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q019,Cá nhân có thể sở hữu bao nhiêu thửa đất ở tối đa theo quy định mới?,Q019_doc2,False,1/4,sở hữu,"; đ) Người sử dụng đất được cấp Giấy
+chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất quy định tại
+khoản này thì phải thực hiện nghĩa vụ tài chính theo quy định của pháp luật; 4",,
+Q019,Cá nhân có thể sở hữu bao nhiêu thửa đất ở tối đa theo quy định mới?,Q019_doc3,False,1/4,thửa đất ở,"; c) Trường hợp tổ chức, cá nhân
+thế chấp nhà ở hình thành trong tương lai trên thửa đất ở hợp pháp của mình thì
+phải có giấy tờ chứng minh quyền sử dụng đất theo quy định của pháp luật về đất
+đai và giấy phép xây dựng nếu thuộc trường hợp phải có giấy phép xây dựng",,
+Q020,Quy định về đất đai liên quan đến người Việt Nam định cư ở nước ngoài?,Q020_doc1,True,3/4,"định cư ở nước ngoài, quyền sử dụng đất, sở hữu","Điều 44.
+Quyền và nghĩa vụ về sử dụng đất ở của người gốc Việt Nam định cư ở nước ngoài
+được sở hữu nhà ở tại Việt Nam; người nước ngoài hoặc người gốc Việt Nam định
+cư ở nước ngoài không thuộc đối tượng được sở hữu nhà ở gắn liền với quyền sử dụng
+đất ở tại Việt Nam
+1. Người gốc Việt Nam định cư ở
+...",,
+Q020,Quy định về đất đai liên quan đến người Việt Nam định cư ở nước ngoài?,Q020_doc2,True,0/4,,"Điều 41. Quyền và nghĩa vụ của người gốc Việt Nam định cư ở nước
+ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài sử dụng đất để thực hiện dự án
+đầu tư tại Việt Nam
+1. Người gốc Việt Nam định cư ở
+nước ngoài về đầu tư tại Việt Nam được Nhà nước giao đất có thu tiền sử dụng đất
+có các quyền và nghĩa v...",,
+Q020,Quy định về đất đai liên quan đến người Việt Nam định cư ở nước ngoài?,Q020_doc3,True,1/4,sở hữu,". Trường hợp cá nhân nước ngoài kết
+hôn với công dân Việt Nam đang sinh sống tại Việt Nam thì được sở hữu nhà ở và
+có quyền của chủ sở hữu nhà ở như công dân Việt Nam",,
+Q021,Thế nào là quy hoạch sử dụng đất theo Luật Đất đai 2024?,Q021_doc1,True,2/4,"quy hoạch, sử dụng đất","; e) Phân kỳ quy hoạch sử dụng đất
+05 năm cấp huyện theo các điểm b, c, d và đ khoản này; g) Giải pháp, nguồn lực thực hiện
+quy hoạch sử dụng đất",,
+Q021,Thế nào là quy hoạch sử dụng đất theo Luật Đất đai 2024?,Q021_doc2,True,2/4,"sử dụng đất, kế hoạch",". d) Dự án có sử dụng
+đất phục vụ cho việc thu hồi đất quy định tại khoản 3 điều 82 của
+Luật này . 5. Xây dựng và cập nhật dữ liệu
+kế hoạch sử dụng đất hằng năm cấp huyện vào cơ sở dữ liệu quốc gia về đất đai.",,
+Q021,Thế nào là quy hoạch sử dụng đất theo Luật Đất đai 2024?,Q021_doc3,True,3/4,"quy hoạch, sử dụng đất, kế hoạch",". Thời hạn sử dụng đất đối với mỗi lần thuê không quá 10 năm. 4. Quỹ đất nông nghiệp sử dụng
+vào mục đích công ích của xã, phường, thị trấn do Ủy ban nhân dân cấp xã nơi có
+đất quản lý, sử dụng theo quy hoạch, kế hoạch sử dụng đất đã được cơ quan có thẩm
+quyền phê duyệt.",,
+Q022,Những hạn chế trong việc sử dụng đất thuộc hành lang bảo vệ an toàn công trình?,Q022_doc1,True,2/4,"hạn chế, sử dụng đất","- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q022,Những hạn chế trong việc sử dụng đất thuộc hành lang bảo vệ an toàn công trình?,Q022_doc2,False,1/4,hạn chế,". Các hạn chế về quyền sở hữu, quyền sử dụng phần diện tích
+sàn xây dựng trong công trình xây dựng có công năng phục vụ mục đích du lịch,
+lưu trú (nếu có):.........................................................................
+6. Các thông tin khác (nếu có)
+...........................................",,
+Q022,Những hạn chế trong việc sử dụng đất thuộc hành lang bảo vệ an toàn công trình?,Q022_doc3,False,1/4,sử dụng đất,"; c) Quyền sử dụng đất không bị kê
+biên, áp dụng biện pháp khác để bảo đảm thi hành án theo quy định của pháp luật
+thi hành án dân sự; d) Trong thời hạn sử dụng đất; đ) Quyền sử dụng đất không bị áp
+dụng biện pháp khẩn cấp tạm thời theo quy định của pháp luật",,
+Q023,Điều kiện để được cấp sổ đỏ đối với đất có nguồn gốc là đất lấn chiếm?,Q023_doc1,False,0/4,,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q023,Điều kiện để được cấp sổ đỏ đối với đất có nguồn gốc là đất lấn chiếm?,Q023_doc2,True,0/4,,"Điều 28.Nhận quyền sử dụng đất
+1",,
+Q023,Điều kiện để được cấp sổ đỏ đối với đất có nguồn gốc là đất lấn chiếm?,Q023_doc3,False,0/4,,". 4. Nhóm đất chưa sử dụng là đất chưa xác định mục đích sử dụng và chưa
+giao, chưa cho thuê. 5. Chính phủ quy định
+chi tiết các loại đất tại Điều này.",,
+Q024,Những trường hợp nào được tách thửa đất theo quy định mới?,Q024_doc1,False,1/4,điều kiện,". 3. Chính phủ quy định trường hợp khác được bồi thường về đất và điều kiện
+được bồi thường về đất.",,
+Q024,Những trường hợp nào được tách thửa đất theo quy định mới?,Q024_doc2,False,0/4,,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q024,Những trường hợp nào được tách thửa đất theo quy định mới?,Q024_doc3,False,0/4,,"; c) Quyền sử dụng đất không bị kê
+biên, áp dụng biện pháp khác để bảo đảm thi hành án theo quy định của pháp luật
+thi hành án dân sự; d) Trong thời hạn sử dụng đất; đ) Quyền sử dụng đất không bị áp
+dụng biện pháp khẩn cấp tạm thời theo quy định của pháp luật",,
+Q025,Các quy định về đấu giá quyền sử dụng đất theo Luật Đất đai 2024?,Q025_doc1,False,1/4,quyền sử dụng đất,"; đ) Người sử dụng đất được cấp Giấy
+chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất quy định tại
+khoản này thì phải thực hiện nghĩa vụ tài chính theo quy định của pháp luật; 4",,
+Q025,Các quy định về đấu giá quyền sử dụng đất theo Luật Đất đai 2024?,Q025_doc2,False,0/4,,". 3. Chính phủ quy định trường hợp khác được bồi thường về đất và điều kiện
+được bồi thường về đất.",,
+Q025,Các quy định về đấu giá quyền sử dụng đất theo Luật Đất đai 2024?,Q025_doc3,False,1/4,quyền sử dụng đất,"; c) Quyền sử dụng đất không bị kê
+biên, áp dụng biện pháp khác để bảo đảm thi hành án theo quy định của pháp luật
+thi hành án dân sự; d) Trong thời hạn sử dụng đất; đ) Quyền sử dụng đất không bị áp
+dụng biện pháp khẩn cấp tạm thời theo quy định của pháp luật",,
+Q026,Cơ chế xử lý đối với đất bỏ hoang theo quy định mới?,Q026_doc1,False,0/4,,". 3. Chính phủ quy định trường hợp khác được bồi thường về đất và điều kiện
+được bồi thường về đất.",,
+Q026,Cơ chế xử lý đối với đất bỏ hoang theo quy định mới?,Q026_doc2,False,0/4,,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q026,Cơ chế xử lý đối với đất bỏ hoang theo quy định mới?,Q026_doc3,False,0/4,,"; c) Quyền sử dụng đất không bị kê
+biên, áp dụng biện pháp khác để bảo đảm thi hành án theo quy định của pháp luật
+thi hành án dân sự; d) Trong thời hạn sử dụng đất; đ) Quyền sử dụng đất không bị áp
+dụng biện pháp khẩn cấp tạm thời theo quy định của pháp luật",,
+Q027,Các hình thức giao đất không thu tiền sử dụng đất được áp dụng cho những đối tượng nào?,Q027_doc1,False,0/4,,"; c) Quyền sử dụng đất không bị kê
+biên, áp dụng biện pháp khác để bảo đảm thi hành án theo quy định của pháp luật
+thi hành án dân sự; d) Trong thời hạn sử dụng đất; đ) Quyền sử dụng đất không bị áp
+dụng biện pháp khẩn cấp tạm thời theo quy định của pháp luật",,
+Q027,Các hình thức giao đất không thu tiền sử dụng đất được áp dụng cho những đối tượng nào?,Q027_doc2,False,0/4,,". 4. Nhóm đất chưa sử dụng là đất chưa xác định mục đích sử dụng và chưa
+giao, chưa cho thuê. 5. Chính phủ quy định
+chi tiết các loại đất tại Điều này.",,
+Q027,Các hình thức giao đất không thu tiền sử dụng đất được áp dụng cho những đối tượng nào?,Q027_doc3,False,0/4,,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q028,Điều kiện để được bồi thường khi Nhà nước thu hồi đất?,Q028_doc1,True,2/4,"bồi thường, thu hồi đất","Điều 95. Điều
+kiện được bồi thường về đất khi Nhà nước thu hồi đất vì mục đích quốc phòng, an
+ninh; phát triển kinh tế - xã hội vì lợi ích quốc gia, công cộng
+1",,
+Q028,Điều kiện để được bồi thường khi Nhà nước thu hồi đất?,Q028_doc2,True,2/4,"bồi thường, điều kiện",". 3. Chính phủ quy định trường hợp khác được bồi thường về đất và điều kiện
+được bồi thường về đất.",,
+Q028,Điều kiện để được bồi thường khi Nhà nước thu hồi đất?,Q028_doc3,True,2/4,"bồi thường, thu hồi đất","; c) Khi Nhà nước thu hồi đất, tổ
+chức bị thiệt hại về tài sản do Nhà nước giao quản lý, sử dụng và phải di dời đến
+cơ sở mới thì tổ chức đó được sử dụng tiền bồi thường tài sản để đầu tư tại cơ
+sở mới theo dự án đầu tư được cấp có thẩm quyền phê duyệt",,
+Q029,Các biện pháp bảo vệ đất có rừng đặc dụng theo quy định mới?,Q029_doc1,True,0/4,,". Thẩm quyền của Ủy ban nhân
+dân cấp huyện được quy định như sau: a) Giao rừng, cho thuê rừng,
+chuyển mục đích sử dụng rừng sang mục đích khác đối với hộ gia đình, cá nhân; b) Giao rừng, chuyển mục đích sử
+dụng rừng sang mục đích khác đối với cộng đồng dân cư; c) Thu hồi rừng đối với trường hợp
+thu ...",,
+Q029,Các biện pháp bảo vệ đất có rừng đặc dụng theo quy định mới?,Q029_doc2,True,1/4,bảo vệ,"Điều 186.
+Đất rừng đặc dụng
+1. Nhà nước giao đất rừng đặc dụng
+để quản lý, sử dụng, bảo vệ, phát triển rừng theo quy định của pháp luật về lâm
+nghiệp cho các đối tượng sau đây: a) Ban quản lý rừng đặc dụng; b) Tổ chức khoa học và công nghệ,
+đào tạo, giáo dục nghề nghiệp về lâm nghiệp; c) Ban quản lý...",,
+Q029,Các biện pháp bảo vệ đất có rừng đặc dụng theo quy định mới?,Q029_doc3,False,1/4,bảo vệ,"Điều 185.
+Đất rừng phòng hộ
+1. Nhà nước giao đất rừng phòng
+hộ để quản lý, sử dụng, bảo vệ, phát triển rừng theo quy định của pháp luật về
+lâm nghiệp cho các đối tượng sau đây: a) Ban quản lý rừng phòng hộ,
+ban quản lý rừng đặc dụng, đơn vị thuộc lực lượng vũ trang nhân dân; b) Tổ chức kinh tế đối v...",,
+Q030,Thẩm quyền giải quyết tranh chấp đất đai giữa cá nhân và tổ chức thuộc về ai?,Q030_doc1,False,0/4,,"Điều 151.
+Các trường hợp không cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản
+gắn liền với đất
+1",,
+Q030,Thẩm quyền giải quyết tranh chấp đất đai giữa cá nhân và tổ chức thuộc về ai?,Q030_doc2,False,0/4,,". Bàn giao quyền sử dụng đất
+a) Việc bàn giao quyền sử dụng đất phải được các bên lập
+thành biên bản, tuân thủ đúng quy định của pháp luật về đất đai.
+b) Bên chuyển nhượng có trách nhiệm bàn giao cho Bên nhận
+chuyển nhượng các giấy tờ pháp lý về quyền sử dụng đất kèm theo quyền sử dụng
+đất:
+- Bản gố...",,
+Q030,Thẩm quyền giải quyết tranh chấp đất đai giữa cá nhân và tổ chức thuộc về ai?,Q030_doc3,False,0/4,,"; c) Trường hợp tổ chức, cá nhân
+thế chấp nhà ở hình thành trong tương lai trên thửa đất ở hợp pháp của mình thì
+phải có giấy tờ chứng minh quyền sử dụng đất theo quy định của pháp luật về đất
+đai và giấy phép xây dựng nếu thuộc trường hợp phải có giấy phép xây dựng",,
+Q031,Phân biệt giữa thu hồi đất và trưng dụng đất theo luật mới?,Q031_doc1,False,0/4,,". 3. Chính phủ quy định trường hợp khác được bồi thường về đất và điều kiện
+được bồi thường về đất.",,
+Q031,Phân biệt giữa thu hồi đất và trưng dụng đất theo luật mới?,Q031_doc2,False,1/4,tạm thời,"; c) Quyền sử dụng đất không bị kê
+biên, áp dụng biện pháp khác để bảo đảm thi hành án theo quy định của pháp luật
+thi hành án dân sự; d) Trong thời hạn sử dụng đất; đ) Quyền sử dụng đất không bị áp
+dụng biện pháp khẩn cấp tạm thời theo quy định của pháp luật",,
+Q031,Phân biệt giữa thu hồi đất và trưng dụng đất theo luật mới?,Q031_doc3,True,2/4,"thu hồi đất, tạm thời","; đ) Đất đã có quyết
+định thu hồi đất của cơ quan nhà nước có thẩm quyền, trừ trường hợp đã quá 03
+năm kể từ thời điểm có quyết định thu hồi đất mà không thực hiện; e) Đất đang có
+tranh chấp, đang bị kê biên, áp dụng biện pháp khác để bảo đảm thi hành án theo
+quy định của pháp luật về thi hành án dâ...",,
+Q032,Nghĩa vụ thuế của người được thừa kế quyền sử dụng đất?,Q032_doc1,False,0/4,,". (Bằng chữ ……………………………………………………)
+- Thuế giá trị gia tăng: …………… đồng; khoản thuế này không
+tính trên tiền sử dụng đất nộp cho Nhà nước theo quy định của pháp luật",,
+Q032,Nghĩa vụ thuế của người được thừa kế quyền sử dụng đất?,Q032_doc2,False,2/4,"thừa kế, quyền sử dụng đất","; c) Trong trường hợp chưa chuyển
+nhượng hoặc chưa tặng cho quyền sử dụng đất thì người nhận thừa kế hoặc người đại
+diện theo ủy quyền bằng văn bản nộp hồ sơ về việc nhận thừa kế tại tổ chức đăng
+ký đất đai để cập nhật vào Sổ địa chính",,
+Q032,Nghĩa vụ thuế của người được thừa kế quyền sử dụng đất?,Q032_doc3,False,1/4,quyền sử dụng đất,"; đ) Người sử dụng đất được cấp Giấy
+chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất quy định tại
+khoản này thì phải thực hiện nghĩa vụ tài chính theo quy định của pháp luật; 4",,
+Q033,Những điểm mới về đất công theo Luật Đất đai 2024?,Q033_doc1,False,1/4,sử dụng,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q033,Những điểm mới về đất công theo Luật Đất đai 2024?,Q033_doc2,False,1/4,sử dụng,"; đ) Đất đã có quyết
+định thu hồi đất của cơ quan nhà nước có thẩm quyền, trừ trường hợp đã quá 03
+năm kể từ thời điểm có quyết định thu hồi đất mà không thực hiện; e) Đất đang có
+tranh chấp, đang bị kê biên, áp dụng biện pháp khác để bảo đảm thi hành án theo
+quy định của pháp luật về thi hành án dâ...",,
+Q033,Những điểm mới về đất công theo Luật Đất đai 2024?,Q033_doc3,False,1/4,sử dụng,". Thời hạn thanh toán: ………………….. (Các bên thỏa thuận về
+tiến độ, thời hạn, điều kiện thanh toán để ghi vào hợp đồng).
+(Các bên thỏa thuận cụ thể tiến độ thanh toán tiền nhận
+chuyển nhượng quyền sử dụng đất, kể cả thời hạn thanh toán trong trường hợp có
+chênh lệch về diện tích đất thực tế khi bàn gia...",,
+Q034,Hồ sơ địa chính bao gồm những tài liệu gì?,Q034_doc1,True,0/4,,"toán, điều kiện sử dụng, bàn giao, đăng ký quyền sở hữu …………………… tại phụ lục
+của hợp đồng).
+g) Các nội dung thỏa thuận khác (nếu có):
+……………………………………………………
+2",,
+Q034,Hồ sơ địa chính bao gồm những tài liệu gì?,Q034_doc2,False,0/4,,". 3. Chính phủ
+quy định cụ thể giấy tờ chứng minh về đối tượng và điều kiện được sở hữu nhà ở
+quy định tại Điều này.",,
+Q034,Hồ sơ địa chính bao gồm những tài liệu gì?,Q034_doc3,True,0/4,,"diện tích, công năng sử dụng, giá mua bán/thuê mua/việc thanh toán, điều kiện
+sử dụng, bàn giao, đăng ký quyền sở hữu …………… tại phụ lục của hợp đồng).
+g) Các nội dung thỏa thuận khác (nếu có): ...…………………………
+2",,
+Q035,Các biện pháp xử lý vi phạm pháp luật về đất đai?,Q035_doc1,False,0/4,,". 3. Chính phủ quy định trường hợp khác được bồi thường về đất và điều kiện
+được bồi thường về đất.",,
+Q035,Các biện pháp xử lý vi phạm pháp luật về đất đai?,Q035_doc2,True,1/4,biện pháp,"; c) Quyền sử dụng đất không bị kê
+biên, áp dụng biện pháp khác để bảo đảm thi hành án theo quy định của pháp luật
+thi hành án dân sự; d) Trong thời hạn sử dụng đất; đ) Quyền sử dụng đất không bị áp
+dụng biện pháp khẩn cấp tạm thời theo quy định của pháp luật",,
+Q035,Các biện pháp xử lý vi phạm pháp luật về đất đai?,Q035_doc3,True,0/4,,"; b) Thiếu trách
+nhiệm trong quản lý để xảy ra vi phạm pháp luật về đất đai hoặc có hành vi khác
+gây thiệt hại đến lợi ích của Nhà nước, quyền và lợi ích hợp pháp của người sử
+dụng đất; c) Vi phạm quy định về lấy ý kiến,
+công bố, công khai thông tin; vi phạm quy định về trình tự, thủ tục hành chính;...",,
+Q036,Điều kiện chuyển nhượng dự án bất động sản theo quy định mới?,Q036_doc1,True,3/4,"chuyển nhượng, dự án bất động sản, điều kiện",". Trách nhiệm của các sở ngành, cơ quan có liên quan:
+...................................................................................................................................
+.....................................................................................................................",,
+Q036,Điều kiện chuyển nhượng dự án bất động sản theo quy định mới?,Q036_doc2,True,3/4,"chuyển nhượng, dự án bất động sản, điều kiện",". tháng... năm 2024 thì Quyết định này chấm dứt
+hiệu lực.
+2. Bên nhận chuyển nhượng toàn bộ hoặc một phần dự án bất
+động sản là chủ đầu tư dự án bất động sản đối với dự án, phần dự án nhận chuyển
+nhượng; thực hiện các quyền và nghĩa vụ đối với chủ đầu tư dự án theo đúng quy
+định pháp luật.
+3. ………………...",,
+Q036,Điều kiện chuyển nhượng dự án bất động sản theo quy định mới?,Q036_doc3,True,1/4,chuyển nhượng,". Chấp thuận cho phép chuyển nhượng toàn bộ (hoặc một phần) dự án bất
+động sản như sau:
+1. Chủ đầu tư chuyển nhượng toàn bộ (hoặc một phần) dự án
+bất động sản:
+- Tên doanh nghiệp: .....................................................................................................
+- Giấy chứng nhận ...",,
+Q037,"Quy định về đất quốc phòng, an ninh theo Luật Đất đai 2024?",Q037_doc1,True,2/4,"đất quốc phòng, an ninh, sử dụng",". Quyền và nghĩa vụ của đối tượng
+quy định tại khoản 1 Điều này khi sử dụng đất quốc phòng, an ninh kết hợp với
+hoạt động lao động sản xuất, xây dựng kinh tế được quy định như sau: a) Được tổ chức sản xuất, kinh
+doanh theo phương án đã được Bộ trưởng Bộ Quốc phòng, Bộ trưởng Bộ Công an phê
+duyệt; b)...",,
+Q037,"Quy định về đất quốc phòng, an ninh theo Luật Đất đai 2024?",Q037_doc2,True,0/4,,"Điều 95. Điều
+kiện được bồi thường về đất khi Nhà nước thu hồi đất vì mục đích quốc phòng, an
+ninh; phát triển kinh tế - xã hội vì lợi ích quốc gia, công cộng
+1",,
+Q037,"Quy định về đất quốc phòng, an ninh theo Luật Đất đai 2024?",Q037_doc3,False,1/4,sử dụng,"Điều 28.Nhận quyền sử dụng đất
+1",,
+Q038,Các quy định về bảo vệ môi trường đất trong Luật Đất đai 2024?,Q038_doc1,False,1/4,đất,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q038,Các quy định về bảo vệ môi trường đất trong Luật Đất đai 2024?,Q038_doc2,False,1/4,đất,"; c) Quyền sử dụng đất không bị kê
+biên, áp dụng biện pháp khác để bảo đảm thi hành án theo quy định của pháp luật
+thi hành án dân sự; d) Trong thời hạn sử dụng đất; đ) Quyền sử dụng đất không bị áp
+dụng biện pháp khẩn cấp tạm thời theo quy định của pháp luật",,
+Q038,Các quy định về bảo vệ môi trường đất trong Luật Đất đai 2024?,Q038_doc3,False,1/4,đất,"; đ) Đất đã có quyết
+định thu hồi đất của cơ quan nhà nước có thẩm quyền, trừ trường hợp đã quá 03
+năm kể từ thời điểm có quyết định thu hồi đất mà không thực hiện; e) Đất đang có
+tranh chấp, đang bị kê biên, áp dụng biện pháp khác để bảo đảm thi hành án theo
+quy định của pháp luật về thi hành án dâ...",,
+Q039,Quy trình xác định giá đất cụ thể khi Nhà nước thu hồi đất?,Q039_doc1,True,1/4,định giá,". Hệ số điều chỉnh
+giá đất được xác định thông qua việc so sánh giá đất trong bảng giá đất với giá
+đất thị trường; đ) Chính phủ quy định phương
+pháp định giá đất khác chưa được quy định tại các điểm a, b, c và d khoản này
+sau khi được sự đồng ý của Ủy ban Thường vụ Quốc hội. 6",,
+Q039,Quy trình xác định giá đất cụ thể khi Nhà nước thu hồi đất?,Q039_doc2,False,0/4,,". 3. Chính phủ quy định trường hợp khác được bồi thường về đất và điều kiện
+được bồi thường về đất.",,
+Q039,Quy trình xác định giá đất cụ thể khi Nhà nước thu hồi đất?,Q039_doc3,True,0/4,,"; e) Đất sử dụng cho hoạt động
+khoáng sản được trả lại theo quy định trong hợp đồng thuê đất; g) Đất hình thành từ hoạt động lấn
+biển sử dụng vốn ngân sách nhà nước; h) Đất thu hồi trong trường hợp
+quy định tại khoản 29 điều 79 của Luật này",,
+Q040,Cách tính tiền thuê đất hàng năm đối với đất thuê của Nhà nước?,Q040_doc1,False,0/4,,"; giá trị
+còn lại của hợp đồng được thanh toán khi cơ quan nhà nước có thẩm quyền đã cấp
+giấy chứng nhận về quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất
+theo quy định của pháp luật về đất đai cho bên thuê mua).
+b) Thời hạn thanh toán kinh phí bảo trì phần sở hữu chung
+2%: ..................",,
+Q040,Cách tính tiền thuê đất hàng năm đối với đất thuê của Nhà nước?,Q040_doc2,True,0/4,,"; k) Tính tiền sử dụng
+đất đối với trường hợp giao đất không thông qua đấu giá quyền sử dụng đất cho hộ
+gia đình, cá nhân ; l) Tính tiền sử dụng
+đất đối với trường hợp bán nhà ở thuộc sở hữu nhà nước cho người đang
+thuê",,
+Q040,Cách tính tiền thuê đất hàng năm đối với đất thuê của Nhà nước?,Q040_doc3,True,1/4,tiền thuê đất,". 3. Nhà nước cho thuê đất thu tiền thuê đất hằng năm trong
+các trường hợp sau đây: a) Các trường hợp
+không thuộc quy định tại khoản 2 Điều này; b) Các trường hợp quy định tại
+khoản 2 Điều này mà có nhu cầu trả tiền thuê đất hằng năm; c) Đơn vị sự nghiệp công lập lựa chọn hình thức thuê đất theo
+quy...",,
+Q041,Các quy định về đăng ký biến động đất đai theo Luật Đất đai 2024?,Q041_doc1,False,0/4,,"; n) Giấy tờ
+khác về quyền sử dụng đất có trước ngày 15 tháng 10 năm 1993 do Ủy ban nhân dân
+cấp tỉnh quy định phù hợp với thực tiễn của địa phương",,
+Q041,Các quy định về đăng ký biến động đất đai theo Luật Đất đai 2024?,Q041_doc2,False,0/4,,". Thời hạn thanh toán: ………………….. (Các bên thỏa thuận về
+tiến độ, thời hạn, điều kiện thanh toán để ghi vào hợp đồng).
+(Các bên thỏa thuận cụ thể tiến độ thanh toán tiền nhận
+chuyển nhượng quyền sử dụng đất, kể cả thời hạn thanh toán trong trường hợp có
+chênh lệch về diện tích đất thực tế khi bàn gia...",,
+Q041,Các quy định về đăng ký biến động đất đai theo Luật Đất đai 2024?,Q041_doc3,False,0/4,,"; c) Trường hợp tổ chức, cá nhân
+thế chấp nhà ở hình thành trong tương lai trên thửa đất ở hợp pháp của mình thì
+phải có giấy tờ chứng minh quyền sử dụng đất theo quy định của pháp luật về đất
+đai và giấy phép xây dựng nếu thuộc trường hợp phải có giấy phép xây dựng",,
+Q042,Các quy định về việc xây dựng công trình ngầm dưới đất?,Q042_doc1,False,0/4,,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q042,Các quy định về việc xây dựng công trình ngầm dưới đất?,Q042_doc2,False,1/4,xây dựng,". Các hạn chế về quyền sở hữu, quyền sử dụng phần diện tích
+sàn xây dựng trong công trình xây dựng có công năng phục vụ mục đích du lịch,
+lưu trú (nếu có):.........................................................................
+6. Các thông tin khác (nếu có)
+...........................................",,
+Q042,Các quy định về việc xây dựng công trình ngầm dưới đất?,Q042_doc3,False,1/4,xây dựng,". Các chỉ tiêu về xây dựng của thửa đất (nếu có) như sau:
+- Mật độ xây dựng: .....................................................................................................
+- Số tầng cao của công trình xây dựng: ........................................................................
+- Chiều c...",,
+Q043,"Làm thế nào để phân biệt giữa đất ở và đất ở có vườn, ao?",Q043_doc1,False,0/4,,"Điều 215.
+Đất có mặt nước chuyên dùng và đất sông, ngòi, kênh, rạch, suối
+1. Đất có mặt nước chuyên dùng
+là đất có mặt nước của các đối tượng thủy văn dạng ao, hồ, đầm, phá đã được xác
+định mục đích sử dụng mà không phải mục đích nuôi trồng thủy sản. 2",,
+Q043,"Làm thế nào để phân biệt giữa đất ở và đất ở có vườn, ao?",Q043_doc2,False,0/4,,"quyền sử dụng đất thì không cần mô tả thông tin này)
+- Tiến độ thực hiện: .....................................................................................................
+- Các nội dung khác: ...................................................................................................
+điề...",,
+Q043,"Làm thế nào để phân biệt giữa đất ở và đất ở có vườn, ao?",Q043_doc3,False,0/4,,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q044,Quyền và nghĩa vụ của tổ chức nhận chuyển nhượng quyền sử dụng đất nông nghiệp là gì?,Q044_doc1,False,0/4,,". 3. Đối với đất
+nông nghiệp đã sử dụng trước ngày 01 tháng 7 năm 2004 mà người sử dụng đất là hộ
+gia đình, cá nhân trực tiếp sản xuất nông nghiệp nhưng không đủ điều kiện để được
+cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với
+đất theo quy định của Luật này thì việc bồi thư...",,
+Q044,Quyền và nghĩa vụ của tổ chức nhận chuyển nhượng quyền sử dụng đất nông nghiệp là gì?,Q044_doc2,False,0/4,,". 4. Cơ quan nhà nước có thẩm quyền
+có trách nhiệm cấp giấy chứng nhận về quyền sử dụng đất, quyền sở hữu tài sản gắn
+liền với đất theo quy định của pháp luật về đất đai.",,
+Q044,Quyền và nghĩa vụ của tổ chức nhận chuyển nhượng quyền sử dụng đất nông nghiệp là gì?,Q044_doc3,False,2/4,"tổ chức, quyền và nghĩa vụ","Điều 33. Quyền và nghĩa vụ của tổ chức trong nước được Nhà nước giao đất
+có thu tiền sử dụng đất, cho thuê đất thu tiền thuê đất một lần cho cả thời
+gian thuê
+1",,
+Q045,Thủ tục đính chính Giấy chứng nhận quyền sử dụng đất khi có sai sót?,Q045_doc1,False,1/4,Giấy chứng nhận,"Điều 151.
+Các trường hợp không cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản
+gắn liền với đất
+1",,
+Q045,Thủ tục đính chính Giấy chứng nhận quyền sử dụng đất khi có sai sót?,Q045_doc2,False,1/4,Giấy chứng nhận,". 4. Người được Nhà nước giao đất
+quy định tại khoản 1 Điều này được cấp Giấy chứng nhận quyền sử dụng đất, quyền
+sở hữu tài sản gắn liền với đất nhưng không được ghi nhận tài sản là tài sản
+công trên Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với
+đất.",,
+Q045,Thủ tục đính chính Giấy chứng nhận quyền sử dụng đất khi có sai sót?,Q045_doc3,True,3/4,"đính chính, Giấy chứng nhận, sai sót","Điều 152.
+Đính chính, thu hồi, hủy giấy chứng nhận đã cấp
+1. Cơ quan có thẩm quyền cấp Giấy
+chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất quy định tại điều 136 của Luật này có trách nhiệm đính chính giấy chứng
+nhận đã cấp có sai sót trong các trường hợp sau đây: a) Có sai sót t...",,
+Q046,"Đối với trường hợp sử dụng đất trái phép, hình thức xử lý là gì?",Q046_doc1,False,0/4,,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q046,"Đối với trường hợp sử dụng đất trái phép, hình thức xử lý là gì?",Q046_doc2,False,0/4,,"; c) Quyền sử dụng đất không bị kê
+biên, áp dụng biện pháp khác để bảo đảm thi hành án theo quy định của pháp luật
+thi hành án dân sự; d) Trong thời hạn sử dụng đất; đ) Quyền sử dụng đất không bị áp
+dụng biện pháp khẩn cấp tạm thời theo quy định của pháp luật",,
+Q046,"Đối với trường hợp sử dụng đất trái phép, hình thức xử lý là gì?",Q046_doc3,False,0/4,,"quyền sử dụng đất thì không cần mô tả thông tin này)
+- Tiến độ thực hiện: .....................................................................................................
+- Các nội dung khác: ...................................................................................................
+điề...",,
+Q047,Vai trò của cơ quan tài nguyên môi trường trong quản lý đất đai là gì?,Q047_doc1,False,0/4,,". 2. Cơ quan, tổ chức của Nhà nước
+được giao quản lý quỹ đất quy định tại khoản 1 Điều này có trách nhiệm quản lý,
+bảo toàn diện tích đất được giao quản lý; việc sử dụng quỹ đất nêu trên thực hiện
+theo chế độ sử dụng đất tương ứng theo quy định của Luật này.",,
+Q047,Vai trò của cơ quan tài nguyên môi trường trong quản lý đất đai là gì?,Q047_doc2,False,1/4,thẩm quyền,"Điều 7. Người chịu trách nhiệm trước Nhà nước đối với đất được giao quản
+lý
+1. Người đại diện
+của tổ chức chịu trách nhiệm đối với việc quản lý đất trong các trường hợp sau
+đây: a) Tổ chức trong
+nước được giao quản lý công trình công cộng và hành lang bảo vệ an toàn các
+công trình theo quy định của ...",,
+Q047,Vai trò của cơ quan tài nguyên môi trường trong quản lý đất đai là gì?,Q047_doc3,False,1/4,thẩm quyền,". 4. Cơ quan nhà nước có thẩm quyền
+có trách nhiệm cấp giấy chứng nhận về quyền sử dụng đất, quyền sở hữu tài sản gắn
+liền với đất theo quy định của pháp luật về đất đai.",,
+Q048,Điều kiện để người nước ngoài được thuê đất xây dựng nhà ở tại Việt Nam?,Q048_doc1,False,0/4,,". Trường hợp cá nhân nước ngoài kết
+hôn với công dân Việt Nam đang sinh sống tại Việt Nam thì được sở hữu nhà ở và
+có quyền của chủ sở hữu nhà ở như công dân Việt Nam",,
+Q048,Điều kiện để người nước ngoài được thuê đất xây dựng nhà ở tại Việt Nam?,Q048_doc2,False,0/4,,". Trường hợp cá nhân nước ngoài kết
+hôn với công dân Việt Nam đang sinh sống tại Việt Nam thì có nghĩa vụ của chủ sở
+hữu nhà ở như công dân Việt Nam. Trường hợp cá nhân nước ngoài kết
+hôn với người Việt Nam định cư ở nước ngoài được phép nhập cảnh vào Việt Nam
+thì có nghĩa vụ của chủ sở hữu nhà ở nh...",,
+Q048,Điều kiện để người nước ngoài được thuê đất xây dựng nhà ở tại Việt Nam?,Q048_doc3,True,1/4,điều kiện,"Điều 8. Đối
+tượng và điều kiện được sở hữu nhà ở tại Việt Nam
+1. Đối tượng được sở hữu nhà ở
+tại Việt Nam bao gồm: a) Tổ chức, cá nhân trong nước; b) Người Việt Nam định cư ở nước
+ngoài theo quy định của pháp luật về quốc tịch; c) Tổ chức, cá nhân nước ngoài
+theo quy định tại khoản 1 điều 17 của Luậ...",,
+Q049,Quy định về diện tích tối thiểu được tách thửa đất ở đô thị?,Q049_doc1,False,0/4,,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q049,Quy định về diện tích tối thiểu được tách thửa đất ở đô thị?,Q049_doc2,False,1/4,quy định,"; c) Quyền sử dụng đất không bị kê
+biên, áp dụng biện pháp khác để bảo đảm thi hành án theo quy định của pháp luật
+thi hành án dân sự; d) Trong thời hạn sử dụng đất; đ) Quyền sử dụng đất không bị áp
+dụng biện pháp khẩn cấp tạm thời theo quy định của pháp luật",,
+Q049,Quy định về diện tích tối thiểu được tách thửa đất ở đô thị?,Q049_doc3,False,0/4,,". hoặc ô số: ……………………..hoặc lô số:
+………………………..
+b) Tờ bản đồ số: ……………………. do cơ quan …………../…………… lập;
+c) Diện tích đất sử dụng chung: ………m2 (diện
+tích đất sử dụng chung bao gồm đất trong khuôn viên thì ghi diện tích đất của
+toàn bộ khuôn viên nhà chung cư đó (trừ trường hợp diện tích đất chủ đầu đầ...",,
+Q050,Thẩm quyền phê duyệt quy hoạch sử dụng đất cấp tỉnh thuộc về ai?,Q050_doc1,False,1/4,thẩm quyền,". 4. Cơ quan nhà nước có thẩm quyền
+có trách nhiệm cấp giấy chứng nhận về quyền sử dụng đất, quyền sở hữu tài sản gắn
+liền với đất theo quy định của pháp luật về đất đai.",,
+Q050,Thẩm quyền phê duyệt quy hoạch sử dụng đất cấp tỉnh thuộc về ai?,Q050_doc2,False,0/4,,". 3. Chính phủ quy định trường hợp khác được bồi thường về đất và điều kiện
+được bồi thường về đất.",,
+Q050,Thẩm quyền phê duyệt quy hoạch sử dụng đất cấp tỉnh thuộc về ai?,Q050_doc3,False,0/4,,". Bàn giao quyền sử dụng đất
+a) Việc bàn giao quyền sử dụng đất phải được các bên lập
+thành biên bản, tuân thủ đúng quy định của pháp luật về đất đai.
+b) Bên chuyển nhượng có trách nhiệm bàn giao cho Bên nhận
+chuyển nhượng các giấy tờ pháp lý về quyền sử dụng đất kèm theo quyền sử dụng
+đất:
+- Bản gố...",,
+Q051,Phạm vi đất hành lang bảo vệ an toàn đường dây điện cao thế là bao nhiêu?,Q051_doc1,False,0/4,,"nối hạ tầng kỹ thuật về cấp điện, cấp và thoát nước ……………).
+2",,
+Q051,Phạm vi đất hành lang bảo vệ an toàn đường dây điện cao thế là bao nhiêu?,Q051_doc2,False,2/4,"hành lang bảo vệ, quy định","Điều 210.
+Đất xây dựng các công trình, khu vực có hành lang bảo vệ an toàn
+1. Đất xây dựng công trình, khu
+vực có hành lang bảo vệ an toàn bao gồm: a) Đất xây dựng các công trình,
+khu vực thuộc trường hợp có hành lang bảo vệ theo quy định của pháp luật có
+liên quan và hành lang bảo vệ các công trình...",,
+Q051,Phạm vi đất hành lang bảo vệ an toàn đường dây điện cao thế là bao nhiêu?,Q051_doc3,False,0/4,,"; e) Cửa sông và các khu vực đã được
+quy hoạch, sử dụng vào mục đích quốc phòng, an ninh",,
+Q052,"Các biện pháp phòng, chống xói mòn, rửa trôi đất theo Luật Đất đai 2024?",Q052_doc1,False,1/4,biện pháp,"; đ) Đất đã có quyết
+định thu hồi đất của cơ quan nhà nước có thẩm quyền, trừ trường hợp đã quá 03
+năm kể từ thời điểm có quyết định thu hồi đất mà không thực hiện; e) Đất đang có
+tranh chấp, đang bị kê biên, áp dụng biện pháp khác để bảo đảm thi hành án theo
+quy định của pháp luật về thi hành án dâ...",,
+Q052,"Các biện pháp phòng, chống xói mòn, rửa trôi đất theo Luật Đất đai 2024?",Q052_doc2,False,0/4,,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q052,"Các biện pháp phòng, chống xói mòn, rửa trôi đất theo Luật Đất đai 2024?",Q052_doc3,False,1/4,biện pháp,"; c) Quyền sử dụng đất không bị kê
+biên, áp dụng biện pháp khác để bảo đảm thi hành án theo quy định của pháp luật
+thi hành án dân sự; d) Trong thời hạn sử dụng đất; đ) Quyền sử dụng đất không bị áp
+dụng biện pháp khẩn cấp tạm thời theo quy định của pháp luật",,
+Q053,Quy định về chuyển nhượng quyền thuê đất trong khu công nghiệp?,Q053_doc1,True,2/4,"chuyển nhượng, quy định",". Về trách nhiệm nộp phí, lệ phí theo quy định: ............................................................
+3. Các thỏa thuận khác: ...............................................................................................
+điều 6. Quyền và nghĩa vụ của các bên
+1. Quyền và nghĩa vụ của bên chuy...",,
+Q053,Quy định về chuyển nhượng quyền thuê đất trong khu công nghiệp?,Q053_doc2,True,2/4,"chuyển nhượng, quy định",". Đăng ký quyền sử dụng đất
+Bên chuyển nhượng có nghĩa vụ thực hiện các thủ tục theo quy
+định của pháp luật để đăng ký quyền sử dụng đất cho Bên nhận chuyển nhượng tại
+cơ quan có thẩm quyền theo quy định của pháp luật về đất đai (trường hợp
+chuyển nhượng quyền sử dụng đất trong dự án), trừ trường hợ...",,
+Q053,Quy định về chuyển nhượng quyền thuê đất trong khu công nghiệp?,Q053_doc3,True,2/4,"chuyển nhượng, quy định",". 2. Trường hợp
+chủ đầu tư chuyển nhượng quyền sử dụng đất đã có hạ tầng kỹ thuật trong dự án bất
+động sản thì ngoài các điều kiện quy định tại khoản 1 Điều này còn phải đáp ứng
+điều kiện khác theo quy định của Luật Kinh
+doanh bất động sản , Luật Nhà ở . 3",,
+Q054,Quy định về việc góp vốn bằng quyền sử dụng đất để thành lập doanh nghiệp?,Q054_doc1,True,2/4,"góp vốn, quy định","; c) Quyền và nghĩa vụ quy định tại khoản 3 điều 41 của Luật này đối với trường hợp quyền sử dụng
+đất do nhận góp vốn trước đó được sử dụng để thực hiện các dự án đầu tư nhà ở để
+bán và tổ chức kinh tế có vốn đầu tư nước ngoài được Nhà nước giao đất có thu
+tiền sử dụng đất theo quy định của Luật này",,
+Q054,Quy định về việc góp vốn bằng quyền sử dụng đất để thành lập doanh nghiệp?,Q054_doc2,False,2/4,"quyền sử dụng đất, quy định","; đ) Người sử dụng đất được cấp Giấy
+chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất quy định tại
+khoản này thì phải thực hiện nghĩa vụ tài chính theo quy định của pháp luật; 4",,
+Q054,Quy định về việc góp vốn bằng quyền sử dụng đất để thành lập doanh nghiệp?,Q054_doc3,False,1/4,quyền sử dụng đất,"; b) Trường hợp nhà đầu tư đã nhận
+quyền sử dụng đất để thực hiện dự án mà đến thời điểm hết hạn sử dụng đất đối với
+đất đã nhận quyền nhưng vẫn chưa hoàn thành thủ tục về đất đai để thực hiện dự
+án thì được tiếp tục thực hiện các thủ tục để triển khai dự án mà không phải thực
+hiện thủ tục gia hạn",,
+Q055,Đất nhận chuyển nhượng từ doanh nghiệp khác có được miễn tiền sử dụng đất không?,Q055_doc1,True,1/4,quy định,"; trường hợp chuyển nhượng, góp vốn bằng quyền sử dụng đất thì phải
+nộp cho Nhà nước một khoản tiền tương ứng với số tiền sử dụng đất, tiền thuê đất
+đã được miễn, giảm tại thời điểm giao đất, cho thuê đất, cho phép chuyển mục
+đích sử dụng đất, trừ trường hợp pháp luật có liên quan có quy định khác.",,
+Q055,Đất nhận chuyển nhượng từ doanh nghiệp khác có được miễn tiền sử dụng đất không?,Q055_doc2,False,1/4,quy định,". 3. Chính phủ quy định trường hợp khác được bồi thường về đất và điều kiện
+được bồi thường về đất.",,
+Q055,Đất nhận chuyển nhượng từ doanh nghiệp khác có được miễn tiền sử dụng đất không?,Q055_doc3,False,1/4,quy định,". Nếu bên mua chưa được cấp giấy chứng
+nhận về quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định
+của pháp luật về đất đai thì bên bán không được thu quá 95% giá trị hợp đồng;
+giá trị còn lại của hợp đồng được thanh toán khi cơ quan nhà nước có thẩm quyền
+đã cấp giấy chứng nhận v...",,
+Q056,Quy trình giải quyết khiếu nại về bồi thường khi thu hồi đất?,Q056_doc1,False,1/4,bồi thường,"Điều 71. Nội
+dung và thẩm quyền phê duyệt phương án bồi thường, tái định cư
+1",,
+Q056,Quy trình giải quyết khiếu nại về bồi thường khi thu hồi đất?,Q056_doc2,False,1/4,bồi thường,"; d) Yêu cầu bên bán, cho thuê
+mua bồi thường thiệt hại do việc giao nhà ở, công trình xây dựng, phần diện
+tích sàn xây dựng trong công trình xây dựng không đúng thời hạn, chất lượng và
+các cam kết khác trong hợp đồng; đ) Quyền khác theo hợp đồng",,
+Q056,Quy trình giải quyết khiếu nại về bồi thường khi thu hồi đất?,Q056_doc3,False,0/4,,". Trách nhiệm do vi phạm hợp đồng
+1. Hình thức, cách thức xử lý vi phạm khi Bên nhận chuyển
+nhượng chậm trễ thanh toán tiền cho bên chuyển nhượng:
+2. Hình thức, cách thức xử lý vi phạm khi Bên chuyển nhượng
+chậm trễ bàn giao phần dự án chuyển nhượng cho Bên nhận chuyển nhượng: .........................",,
+Q057,Đất đai thuộc di tích lịch sử - văn hóa được quản lý như thế nào?,Q057_doc1,True,3/4,"di tích lịch sử - văn hóa, quản lý, quy định",". Đất có di
+tích lịch sử - văn hóa, danh lam thắng cảnh, di sản thiên nhiên đã được xếp hạng
+hoặc được Ủy ban nhân dân cấp tỉnh đưa vào danh mục kiểm kê di tích theo quy định
+của pháp luật về di sản văn hóa thì phải được quản lý theo quy định sau đây: a) Đối với đất
+có di tích lịch sử - văn hóa, dan...",,
+Q057,Đất đai thuộc di tích lịch sử - văn hóa được quản lý như thế nào?,Q057_doc2,True,2/4,"di tích lịch sử - văn hóa, quy định","; c) Đối với đất
+có di tích lịch sử - văn hóa, danh lam thắng cảnh, di sản thiên nhiên bị lấn, bị
+chiếm, sử dụng không đúng mục đích, sử dụng trái pháp luật thì Ủy ban nhân dân
+cấp xã nơi có đất có trách nhiệm phát hiện, ngăn chặn và xử lý theo thẩm quyền hoặc kiến nghị với cơ quan, người có thẩm qu...",,
+Q057,Đất đai thuộc di tích lịch sử - văn hóa được quản lý như thế nào?,Q057_doc3,True,1/4,di tích lịch sử - văn hóa,"Điều 211.
+Đất có di tích lịch sử - văn hóa, danh lam thắng cảnh, di sản thiên nhiên
+1",,
+Q058,Quy định về cấp đổi Giấy chứng nhận quyền sử dụng đất?,Q058_doc1,True,2/4,"Giấy chứng nhận, quyền sử dụng đất","Điều 151.
+Các trường hợp không cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản
+gắn liền với đất
+1",,
+Q058,Quy định về cấp đổi Giấy chứng nhận quyền sử dụng đất?,Q058_doc2,True,2/4,"Giấy chứng nhận, quyền sử dụng đất",". 4. Người được Nhà nước giao đất
+quy định tại khoản 1 Điều này được cấp Giấy chứng nhận quyền sử dụng đất, quyền
+sở hữu tài sản gắn liền với đất nhưng không được ghi nhận tài sản là tài sản
+công trên Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với
+đất.",,
+Q058,Quy định về cấp đổi Giấy chứng nhận quyền sử dụng đất?,Q058_doc3,True,1/4,quyền sử dụng đất,"; đ) Người sử dụng đất được cấp Giấy
+chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất quy định tại
+khoản này thì phải thực hiện nghĩa vụ tài chính theo quy định của pháp luật; 4",,
+Q059,"Hạn mức nhận chuyển quyền sử dụng đất nông nghiệp của hộ gia đình, cá nhân?",Q059_doc1,True,0/4,,". 3. Đối với đất
+nông nghiệp đã sử dụng trước ngày 01 tháng 7 năm 2004 mà người sử dụng đất là hộ
+gia đình, cá nhân trực tiếp sản xuất nông nghiệp nhưng không đủ điều kiện để được
+cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với
+đất theo quy định của Luật này thì việc bồi thư...",,
+Q059,"Hạn mức nhận chuyển quyền sử dụng đất nông nghiệp của hộ gia đình, cá nhân?",Q059_doc2,True,3/4,"hạn mức, chuyển quyền sử dụng đất, đất nông nghiệp","Điều 177.
+Hạn mức nhận chuyển quyền sử dụng đất nông nghiệp của cá nhân
+1. Hạn mức nhận chuyển quyền sử
+dụng đất nông nghiệp của cá nhân không quá 15 lần hạn mức giao đất nông nghiệp
+của cá nhân đối với mỗi loại đất quy định tại các khoản 1, 2
+và 3 điều 176 của Luật này . 2. Việc xác
+định hạn mức nh...",,
+Q059,"Hạn mức nhận chuyển quyền sử dụng đất nông nghiệp của hộ gia đình, cá nhân?",Q059_doc3,True,1/4,đất nông nghiệp,"Điều 178.
+Đất nông nghiệp do cá nhân, cộng đồng dân cư sử dụng
+1. Đất nông nghiệp do cá nhân sử
+dụng bao gồm đất nông nghiệp được Nhà nước giao, cho thuê, công nhận quyền sử dụng
+đất; do thuê quyền sử dụng đất của người sử dụng đất khác; do nhận chuyển đổi,
+nhận chuyển nhượng, nhận thừa kế, nhận tặn...",,
+Q060,Quy định về việc sử dụng đất xây dựng công trình công cộng có mục đích kinh doanh?,Q060_doc1,True,1/4,sử dụng đất,". Quy mô của công trình xây dựng có công năng phục vụ mục
+đích du lịch, lưu trú:
+..............................................................................................
+- Tổng diện tích sàn xây dựng: ........................m2
+- Tổng diện tích sử dụng đất: ........................m2,
+trong đó...",,
+Q060,Quy định về việc sử dụng đất xây dựng công trình công cộng có mục đích kinh doanh?,Q060_doc2,False,2/4,"sử dụng đất, quy định","; c) Trường hợp tổ chức, cá nhân
+thế chấp nhà ở hình thành trong tương lai trên thửa đất ở hợp pháp của mình thì
+phải có giấy tờ chứng minh quyền sử dụng đất theo quy định của pháp luật về đất
+đai và giấy phép xây dựng nếu thuộc trường hợp phải có giấy phép xây dựng",,
+Q060,Quy định về việc sử dụng đất xây dựng công trình công cộng có mục đích kinh doanh?,Q060_doc3,False,2/4,"sử dụng đất, quy định","; c) Quyền sử dụng đất không bị kê
+biên, áp dụng biện pháp khác để bảo đảm thi hành án theo quy định của pháp luật
+thi hành án dân sự; d) Trong thời hạn sử dụng đất; đ) Quyền sử dụng đất không bị áp
+dụng biện pháp khẩn cấp tạm thời theo quy định của pháp luật",,
+Q061,"Cơ sở pháp lý để thực hiện việc thu hồi đất vì mục đích quốc phòng, an ninh?",Q061_doc1,True,1/4,thu hồi đất,"Điều 95. Điều
+kiện được bồi thường về đất khi Nhà nước thu hồi đất vì mục đích quốc phòng, an
+ninh; phát triển kinh tế - xã hội vì lợi ích quốc gia, công cộng
+1",,
+Q061,"Cơ sở pháp lý để thực hiện việc thu hồi đất vì mục đích quốc phòng, an ninh?",Q061_doc2,False,0/4,,". 3. Chính phủ quy định trường hợp khác được bồi thường về đất và điều kiện
+được bồi thường về đất.",,
+Q061,"Cơ sở pháp lý để thực hiện việc thu hồi đất vì mục đích quốc phòng, an ninh?",Q061_doc3,True,0/4,,"; e) Đất sử dụng cho hoạt động
+khoáng sản được trả lại theo quy định trong hợp đồng thuê đất; g) Đất hình thành từ hoạt động lấn
+biển sử dụng vốn ngân sách nhà nước; h) Đất thu hồi trong trường hợp
+quy định tại khoản 29 điều 79 của Luật này",,
+Q062,Các trường hợp được cấp Giấy chứng nhận quyền sử dụng đất không phải nộp tiền sử dụng đất?,Q062_doc1,False,3/4,"Giấy chứng nhận, quyền sử dụng đất, trường hợp","Điều 151.
+Các trường hợp không cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản
+gắn liền với đất
+1",,
+Q062,Các trường hợp được cấp Giấy chứng nhận quyền sử dụng đất không phải nộp tiền sử dụng đất?,Q062_doc2,False,1/4,quyền sử dụng đất,"; đ) Người sử dụng đất được cấp Giấy
+chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất quy định tại
+khoản này thì phải thực hiện nghĩa vụ tài chính theo quy định của pháp luật; 4",,
+Q062,Các trường hợp được cấp Giấy chứng nhận quyền sử dụng đất không phải nộp tiền sử dụng đất?,Q062_doc3,True,2/4,"Giấy chứng nhận, quyền sử dụng đất",". 4. Người được Nhà nước giao đất
+quy định tại khoản 1 Điều này được cấp Giấy chứng nhận quyền sử dụng đất, quyền
+sở hữu tài sản gắn liền với đất nhưng không được ghi nhận tài sản là tài sản
+công trên Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với
+đất.",,
+Q063,Quy định về thời hạn sử dụng đất đối với đất được giao để xây dựng nhà ở để bán?,Q063_doc1,False,2/4,"giao đất, quy định",". Thời hạn thanh toán: ………………….. (Các bên thỏa thuận về
+tiến độ, thời hạn, điều kiện thanh toán để ghi vào hợp đồng).
+(Các bên thỏa thuận cụ thể tiến độ thanh toán tiền nhận
+chuyển nhượng quyền sử dụng đất, kể cả thời hạn thanh toán trong trường hợp có
+chênh lệch về diện tích đất thực tế khi bàn gia...",,
+Q063,Quy định về thời hạn sử dụng đất đối với đất được giao để xây dựng nhà ở để bán?,Q063_doc2,True,0/4,,"; b) Trường hợp nhà đầu tư đã nhận
+quyền sử dụng đất để thực hiện dự án mà đến thời điểm hết hạn sử dụng đất đối với
+đất đã nhận quyền nhưng vẫn chưa hoàn thành thủ tục về đất đai để thực hiện dự
+án thì được tiếp tục thực hiện các thủ tục để triển khai dự án mà không phải thực
+hiện thủ tục gia hạn",,
+Q063,Quy định về thời hạn sử dụng đất đối với đất được giao để xây dựng nhà ở để bán?,Q063_doc3,True,1/4,giao đất,"; k) Tính tiền sử dụng
+đất đối với trường hợp giao đất không thông qua đấu giá quyền sử dụng đất cho hộ
+gia đình, cá nhân ; l) Tính tiền sử dụng
+đất đối với trường hợp bán nhà ở thuộc sở hữu nhà nước cho người đang
+thuê",,
+Q064,Quy định về việc chuyển nhượng một phần thửa đất?,Q064_doc1,True,2/4,"chuyển nhượng, quy định",". Về trách nhiệm nộp phí, lệ phí theo quy định: ............................................................
+3. Các thỏa thuận khác: ...............................................................................................
+điều 6. Quyền và nghĩa vụ của các bên
+1. Quyền và nghĩa vụ của bên chuy...",,
+Q064,Quy định về việc chuyển nhượng một phần thửa đất?,Q064_doc2,False,1/4,quy định,". 3. Chính phủ quy định trường hợp khác được bồi thường về đất và điều kiện
+được bồi thường về đất.",,
+Q064,Quy định về việc chuyển nhượng một phần thửa đất?,Q064_doc3,True,1/4,chuyển nhượng,"Điều 45. Điều
+kiện thực hiện các quyền chuyển đổi, chuyển nhượng, cho thuê, cho thuê lại, thừa
+kế, tặng cho quyền sử dụng đất; thế chấp, góp vốn bằng quyền sử dụng đất; nhận
+chuyển nhượng, nhận tặng cho quyền sử dụng đất
+1",,
+Q065,Phương pháp định giá đất thu hồi để bồi thường theo Luật Đất đai 2024?,Q065_doc1,False,1/4,bồi thường,". 3. Chính phủ quy định trường hợp khác được bồi thường về đất và điều kiện
+được bồi thường về đất.",,
+Q065,Phương pháp định giá đất thu hồi để bồi thường theo Luật Đất đai 2024?,Q065_doc2,False,0/4,,". Thời hạn thanh toán: ………………….. (Các bên thỏa thuận về
+tiến độ, thời hạn, điều kiện thanh toán để ghi vào hợp đồng).
+(Các bên thỏa thuận cụ thể tiến độ thanh toán tiền nhận
+chuyển nhượng quyền sử dụng đất, kể cả thời hạn thanh toán trong trường hợp có
+chênh lệch về diện tích đất thực tế khi bàn gia...",,
+Q065,Phương pháp định giá đất thu hồi để bồi thường theo Luật Đất đai 2024?,Q065_doc3,False,0/4,,". Hệ số điều chỉnh
+giá đất được xác định thông qua việc so sánh giá đất trong bảng giá đất với giá
+đất thị trường; đ) Chính phủ quy định phương
+pháp định giá đất khác chưa được quy định tại các điểm a, b, c và d khoản này
+sau khi được sự đồng ý của Ủy ban Thường vụ Quốc hội. 6",,
+Q066,Trường hợp nào được cấp Giấy chứng nhận quyền sử dụng đất theo diện tích đất đang sử dụng?,Q066_doc1,True,2/4,"cấp Giấy chứng nhận, quy định",". 4. Người được Nhà nước giao đất
+quy định tại khoản 1 Điều này được cấp Giấy chứng nhận quyền sử dụng đất, quyền
+sở hữu tài sản gắn liền với đất nhưng không được ghi nhận tài sản là tài sản
+công trên Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với
+đất.",,
+Q066,Trường hợp nào được cấp Giấy chứng nhận quyền sử dụng đất theo diện tích đất đang sử dụng?,Q066_doc2,False,2/4,"cấp Giấy chứng nhận, trường hợp","Điều 151.
+Các trường hợp không cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản
+gắn liền với đất
+1",,
+Q066,Trường hợp nào được cấp Giấy chứng nhận quyền sử dụng đất theo diện tích đất đang sử dụng?,Q066_doc3,False,2/4,"trường hợp, quy định",". Bàn giao quyền sử dụng đất
+a) Việc bàn giao quyền sử dụng đất phải được các bên lập
+thành biên bản, tuân thủ đúng quy định của pháp luật về đất đai.
+b) Bên chuyển nhượng có trách nhiệm bàn giao cho Bên nhận
+chuyển nhượng các giấy tờ pháp lý về quyền sử dụng đất kèm theo quyền sử dụng
+đất:
+- Bản gố...",,
+Q067,Đất tôn giáo được quản lý và sử dụng như thế nào theo Luật Đất đai 2024?,Q067_doc1,False,0/4,,"; diện tích đất của tổ chức tôn giáo, tổ chức tôn giáo trực thuộc
+bị lấn, bị chiếm; diện tích đất của tổ chức tôn giáo, tổ chức tôn giáo trực thuộc
+đang có tranh chấp thì Ủy ban nhân dân cấp tỉnh giải quyết theo quy định của
+pháp luật",,
+Q067,Đất tôn giáo được quản lý và sử dụng như thế nào theo Luật Đất đai 2024?,Q067_doc2,True,0/4,,". 6. Trường hợp Nhà nước thu hồi đất
+tôn giáo quy định tại khoản 2 Điều này thì được bố trí địa điểm mới
+phù hợp với quỹ đất của địa phương và sinh hoạt tôn giáo của các tín đồ.",,
+Q067,Đất tôn giáo được quản lý và sử dụng như thế nào theo Luật Đất đai 2024?,Q067_doc3,True,0/4,,". 3. Diện tích đất của tổ chức tôn giáo, tổ chức tôn giáo trực thuộc sau khi đã xử lý
+theo quy định tại khoản 2 Điều này thì được cấp Giấy chứng nhận quyền sử dụng đất,
+quyền sở hữu tài sản gắn liền với đất với thời hạn sử dụng đất ổn định lâu dài
+và hình thức giao đất không thu tiền sử dụng đất the...",,
+Q068,"Quy định về việc sử dụng đất trong khu kinh tế, khu công nghệ cao?",Q068_doc1,True,1/4,sử dụng đất,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q068,"Quy định về việc sử dụng đất trong khu kinh tế, khu công nghệ cao?",Q068_doc2,False,2/4,"sử dụng đất, quy định","; c) Quyền sử dụng đất không bị kê
+biên, áp dụng biện pháp khác để bảo đảm thi hành án theo quy định của pháp luật
+thi hành án dân sự; d) Trong thời hạn sử dụng đất; đ) Quyền sử dụng đất không bị áp
+dụng biện pháp khẩn cấp tạm thời theo quy định của pháp luật",,
+Q068,"Quy định về việc sử dụng đất trong khu kinh tế, khu công nghệ cao?",Q068_doc3,False,1/4,sử dụng đất,"; đ) Các hạn chế về quyền sử dụng
+đất đã có hạ tầng kỹ thuật trong dự án bất động sản (nếu có); việc thế chấp quyền
+sử dụng đất, dự án bất động sản đưa vào kinh doanh",,
+Q069,"Quyền và nghĩa vụ của người sử dụng đất khi Nhà nước thu hồi đất để phát triển kinh tế - xã hội vì lợi ích quốc gia, công cộng?",Q069_doc1,False,0/4,,". 3. Chính phủ quy định trường hợp khác được bồi thường về đất và điều kiện
+được bồi thường về đất.",,
+Q069,"Quyền và nghĩa vụ của người sử dụng đất khi Nhà nước thu hồi đất để phát triển kinh tế - xã hội vì lợi ích quốc gia, công cộng?",Q069_doc2,True,0/4,,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q069,"Quyền và nghĩa vụ của người sử dụng đất khi Nhà nước thu hồi đất để phát triển kinh tế - xã hội vì lợi ích quốc gia, công cộng?",Q069_doc3,True,0/4,,"; c) Quyền sử dụng đất không bị kê
+biên, áp dụng biện pháp khác để bảo đảm thi hành án theo quy định của pháp luật
+thi hành án dân sự; d) Trong thời hạn sử dụng đất; đ) Quyền sử dụng đất không bị áp
+dụng biện pháp khẩn cấp tạm thời theo quy định của pháp luật",,
+Q070,Mức giá đất cụ thể được xác định như thế nào khi Nhà nước giao đất có thu tiền sử dụng đất?,Q070_doc1,True,1/4,xác định,". Hệ số điều chỉnh
+giá đất được xác định thông qua việc so sánh giá đất trong bảng giá đất với giá
+đất thị trường; đ) Chính phủ quy định phương
+pháp định giá đất khác chưa được quy định tại các điểm a, b, c và d khoản này
+sau khi được sự đồng ý của Ủy ban Thường vụ Quốc hội. 6",,
+Q070,Mức giá đất cụ thể được xác định như thế nào khi Nhà nước giao đất có thu tiền sử dụng đất?,Q070_doc2,False,0/4,,". 3. Chính phủ quy định trường hợp khác được bồi thường về đất và điều kiện
+được bồi thường về đất.",,
+Q070,Mức giá đất cụ thể được xác định như thế nào khi Nhà nước giao đất có thu tiền sử dụng đất?,Q070_doc3,True,1/4,giao đất,"; k) Tính tiền sử dụng
+đất đối với trường hợp giao đất không thông qua đấu giá quyền sử dụng đất cho hộ
+gia đình, cá nhân ; l) Tính tiền sử dụng
+đất đối với trường hợp bán nhà ở thuộc sở hữu nhà nước cho người đang
+thuê",,
+Q071,Những hạn chế quyền của người sử dụng đất khi sử dụng đất có thời hạn?,Q071_doc1,True,0/4,,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q071,Những hạn chế quyền của người sử dụng đất khi sử dụng đất có thời hạn?,Q071_doc2,True,1/4,quy định,"; c) Quyền sử dụng đất không bị kê
+biên, áp dụng biện pháp khác để bảo đảm thi hành án theo quy định của pháp luật
+thi hành án dân sự; d) Trong thời hạn sử dụng đất; đ) Quyền sử dụng đất không bị áp
+dụng biện pháp khẩn cấp tạm thời theo quy định của pháp luật",,
+Q071,Những hạn chế quyền của người sử dụng đất khi sử dụng đất có thời hạn?,Q071_doc3,False,1/4,quy định,". Bàn giao quyền sử dụng đất
+a) Việc bàn giao quyền sử dụng đất phải được các bên lập
+thành biên bản, tuân thủ đúng quy định của pháp luật về đất đai.
+b) Bên chuyển nhượng có trách nhiệm bàn giao cho Bên nhận
+chuyển nhượng các giấy tờ pháp lý về quyền sử dụng đất kèm theo quyền sử dụng
+đất:
+- Bản gố...",,
+Q072,Thẩm quyền cấp Giấy chứng nhận quyền sử dụng đất thuộc về ai?,Q072_doc1,False,2/4,"cấp Giấy chứng nhận, quyền sử dụng đất","Điều 151.
+Các trường hợp không cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản
+gắn liền với đất
+1",,
+Q072,Thẩm quyền cấp Giấy chứng nhận quyền sử dụng đất thuộc về ai?,Q072_doc2,True,4/4,"thẩm quyền, cấp Giấy chứng nhận, quyền sử dụng đất, cơ quan",". 4. Cơ quan nhà nước có thẩm quyền
+có trách nhiệm cấp giấy chứng nhận về quyền sử dụng đất, quyền sở hữu tài sản gắn
+liền với đất theo quy định của pháp luật về đất đai.",,
+Q072,Thẩm quyền cấp Giấy chứng nhận quyền sử dụng đất thuộc về ai?,Q072_doc3,False,1/4,quyền sử dụng đất,"; đ) Người sử dụng đất được cấp Giấy
+chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất quy định tại
+khoản này thì phải thực hiện nghĩa vụ tài chính theo quy định của pháp luật; 4",,
+Q073,"Quy định về việc sử dụng đất khoanh nuôi, bảo vệ, phát triển rừng ở nơi đất trống, đồi núi trọc?",Q073_doc1,False,1/4,sử dụng đất,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q073,"Quy định về việc sử dụng đất khoanh nuôi, bảo vệ, phát triển rừng ở nơi đất trống, đồi núi trọc?",Q073_doc2,False,1/4,sử dụng đất,"; c) Quyền sử dụng đất không bị kê
+biên, áp dụng biện pháp khác để bảo đảm thi hành án theo quy định của pháp luật
+thi hành án dân sự; d) Trong thời hạn sử dụng đất; đ) Quyền sử dụng đất không bị áp
+dụng biện pháp khẩn cấp tạm thời theo quy định của pháp luật",,
+Q073,"Quy định về việc sử dụng đất khoanh nuôi, bảo vệ, phát triển rừng ở nơi đất trống, đồi núi trọc?",Q073_doc3,False,1/4,sử dụng đất,". 8. Các trường
+hợp không được nhận chuyển nhượng, nhận tặng cho quyền sử dụng đất quy định như
+sau: a) Tổ chức kinh tế không được nhận
+chuyển nhượng quyền sử dụng đất rừng phòng hộ, đất rừng đặc dụng của cá nhân,
+trừ trường hợp được chuyển mục đích sử dụng đất theo quy hoạch, kế hoạch sử dụng
+đất đ...",,
+Q074,Quy định mới về cơ sở dữ liệu đất đai theo Luật Đất đai 2024?,Q074_doc1,True,0/4,,". d) Dự án có sử dụng
+đất phục vụ cho việc thu hồi đất quy định tại khoản 3 điều 82 của
+Luật này . 5. Xây dựng và cập nhật dữ liệu
+kế hoạch sử dụng đất hằng năm cấp huyện vào cơ sở dữ liệu quốc gia về đất đai.",,
+Q074,Quy định mới về cơ sở dữ liệu đất đai theo Luật Đất đai 2024?,Q074_doc2,False,0/4,,"Điều 137. Cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn
+liền với đất đối với hộ gia đình, cá nhân, cộng đồng dân cư đang sử dụng đất có
+giấy tờ về quyền sử dụng đất
+1",,
+Q074,Quy định mới về cơ sở dữ liệu đất đai theo Luật Đất đai 2024?,Q074_doc3,True,0/4,,"Điều 24.
+Quyền tiếp cận thông tin đất đai
+1. Công dân được tiếp cận
+các thông tin đất đai sau đây: a) Quy hoạch, kế hoạch sử
+dụng đất, các quy hoạch có liên quan đến sử dụng đất đã được cơ quan nhà nước
+có thẩm quyền quyết định, phê duyệt; b) Kết quả thống kê, kiểm kê đất
+đai; c) Giao đất, cho thuê ...",,
+Q075,Các biện pháp bảo đảm thực hiện quyền và nghĩa vụ của người sử dụng đất?,Q075_doc1,False,0/4,,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q075,Các biện pháp bảo đảm thực hiện quyền và nghĩa vụ của người sử dụng đất?,Q075_doc2,True,0/4,,"; c) Quyền sử dụng đất không bị kê
+biên, áp dụng biện pháp khác để bảo đảm thi hành án theo quy định của pháp luật
+thi hành án dân sự; d) Trong thời hạn sử dụng đất; đ) Quyền sử dụng đất không bị áp
+dụng biện pháp khẩn cấp tạm thời theo quy định của pháp luật",,
+Q075,Các biện pháp bảo đảm thực hiện quyền và nghĩa vụ của người sử dụng đất?,Q075_doc3,False,0/4,,". Bàn giao quyền sử dụng đất
+a) Việc bàn giao quyền sử dụng đất phải được các bên lập
+thành biên bản, tuân thủ đúng quy định của pháp luật về đất đai.
+b) Bên chuyển nhượng có trách nhiệm bàn giao cho Bên nhận
+chuyển nhượng các giấy tờ pháp lý về quyền sử dụng đất kèm theo quyền sử dụng
+đất:
+- Bản gố...",,
+Q076,Các quy định về đăng ký đất đai lần đầu?,Q076_doc1,True,3/4,"đăng ký đất đai, lần đầu, quy định","Điều 132. Đăng ký lần đầu
+1. Đăng ký lần đầu
+đối với đất đai, tài sản gắn liền với đất được thực hiện trong các trường hợp
+sau đây: a) Thửa đất đang sử
+dụng mà chưa đăng ký; b) Thửa đất được
+Nhà nước giao, cho thuê để sử dụng; c) Thửa đất được giao để quản lý
+mà chưa đăng ký; d) Tài sản gắn liền
+với...",,
+Q076,Các quy định về đăng ký đất đai lần đầu?,Q076_doc2,False,0/4,,"Điều 151.
+Các trường hợp không cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản
+gắn liền với đất
+1",,
+Q076,Các quy định về đăng ký đất đai lần đầu?,Q076_doc3,True,1/4,quy định,"; đ) Người sử dụng đất được cấp Giấy
+chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất quy định tại
+khoản này thì phải thực hiện nghĩa vụ tài chính theo quy định của pháp luật; 4",,
+Q077,Quy định về định giá đất trong các giao dịch về quyền sử dụng đất?,Q077_doc1,False,2/4,"quyền sử dụng đất, quy định","; đ) Người sử dụng đất được cấp Giấy
+chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất quy định tại
+khoản này thì phải thực hiện nghĩa vụ tài chính theo quy định của pháp luật; 4",,
+Q077,Quy định về định giá đất trong các giao dịch về quyền sử dụng đất?,Q077_doc2,True,1/4,quyền sử dụng đất,"; k) Tính tiền sử dụng
+đất đối với trường hợp giao đất không thông qua đấu giá quyền sử dụng đất cho hộ
+gia đình, cá nhân ; l) Tính tiền sử dụng
+đất đối với trường hợp bán nhà ở thuộc sở hữu nhà nước cho người đang
+thuê",,
+Q077,Quy định về định giá đất trong các giao dịch về quyền sử dụng đất?,Q077_doc3,False,1/4,quy định,". 3. Chính phủ quy định trường hợp khác được bồi thường về đất và điều kiện
+được bồi thường về đất.",,
+Q078,Điều kiện để thực hiện giao dịch chuyển nhượng quyền sử dụng đất thông qua sàn giao dịch bất động sản?,Q078_doc1,True,1/4,quyền sử dụng đất,". Trong trường hợp có tranh chấp về khoản tiền chuyển nhượng
+quyền sử dụng đất này thì hợp đồng này vẫn có hiệu lực đối với hai bên;
+d) Cung cấp các giấy tờ cần thiết khi Bên chuyển nhượng yêu
+cầu theo quy định của pháp luật để làm thủ tục cấp Giấy chứng nhận cho Bên nhận
+chuyển nhượng;
+đ) Các cam k...",,
+Q078,Điều kiện để thực hiện giao dịch chuyển nhượng quyền sử dụng đất thông qua sàn giao dịch bất động sản?,Q078_doc2,False,1/4,quyền sử dụng đất,"; đ) Người sử dụng đất được cấp Giấy
+chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất quy định tại
+khoản này thì phải thực hiện nghĩa vụ tài chính theo quy định của pháp luật; 4",,
+Q078,Điều kiện để thực hiện giao dịch chuyển nhượng quyền sử dụng đất thông qua sàn giao dịch bất động sản?,Q078_doc3,False,1/4,quyền sử dụng đất,"Điều 151.
+Các trường hợp không cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản
+gắn liền với đất
+1",,
+Q079,"Quy định mới về hạn chế phân lô, bán nền theo Luật Đất đai 2024?",Q079_doc1,True,1/4,hạn chế,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q079,"Quy định mới về hạn chế phân lô, bán nền theo Luật Đất đai 2024?",Q079_doc2,False,0/4,,". 3. Chính phủ quy định trường hợp khác được bồi thường về đất và điều kiện
+được bồi thường về đất.",,
+Q079,"Quy định mới về hạn chế phân lô, bán nền theo Luật Đất đai 2024?",Q079_doc3,False,0/4,,". 3. Bên nhận chuyển nhượng hợp đồng
+mua bán, thuê mua nhà ở hình thành trong tương lai, công trình xây dựng có sẵn
+được cơ quan nhà nước có thẩm quyền cấp giấy chứng nhận về quyền sử dụng đất,
+quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai.",,
+Q080,Điều kiện để thực hiện quyền chuyển đổi mục đích sử dụng đất?,Q080_doc1,False,2/4,"sử dụng đất, quyền","- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q080,Điều kiện để thực hiện quyền chuyển đổi mục đích sử dụng đất?,Q080_doc2,False,2/4,"sử dụng đất, quyền","; c) Quyền sử dụng đất không bị kê
+biên, áp dụng biện pháp khác để bảo đảm thi hành án theo quy định của pháp luật
+thi hành án dân sự; d) Trong thời hạn sử dụng đất; đ) Quyền sử dụng đất không bị áp
+dụng biện pháp khẩn cấp tạm thời theo quy định của pháp luật",,
+Q080,Điều kiện để thực hiện quyền chuyển đổi mục đích sử dụng đất?,Q080_doc3,False,2/4,"sử dụng đất, quyền",". Bàn giao quyền sử dụng đất
+a) Việc bàn giao quyền sử dụng đất phải được các bên lập
+thành biên bản, tuân thủ đúng quy định của pháp luật về đất đai.
+b) Bên chuyển nhượng có trách nhiệm bàn giao cho Bên nhận
+chuyển nhượng các giấy tờ pháp lý về quyền sử dụng đất kèm theo quyền sử dụng
+đất:
+- Bản gố...",,
+Q081,Các biện pháp giải quyết đối với đất đô thị bị lấn chiếm?,Q081_doc1,False,0/4,,"- Những hạn chế về quyền sử dụng đất (nếu có): ..........................................................
+2",,
+Q081,Các biện pháp giải quyết đối với đất đô thị bị lấn chiếm?,Q081_doc2,False,0/4,,". 3. Đối với
+các đô thị không thuộc trường hợp quy định tại khoản 2 Điều này, Ủy ban nhân
+dân cấp tỉnh căn cứ điều kiện của địa phương để quy định tiêu chí đối với dự án
+đầu tư xây dựng nhà ở thương mại mà chủ đầu tư dự án đầu tư xây dựng nhà ở
+thương mại phải dành một phần diện tích đất ở trong dự ...",,
+Q081,Các biện pháp giải quyết đối với đất đô thị bị lấn chiếm?,Q081_doc3,False,0/4,,"c) Trường hợp Ủy ban nhân dân tỉnh, thành phố trực thuộc
+trung ương nơi có tòa nhà có quy định về mức kinh phí quản lý vận hành tòa nhà
+thì mức kinh phí này được đóng theo quy định của Nhà nước, trừ trường hợp các
+bên có thỏa thuận khác.
+6",,
