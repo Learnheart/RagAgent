@@ -31,14 +31,19 @@ def hallucination_testing(file, output):
     for sample in range(len(data)):
         try:
             hallu_result = check_hallucination(data['answer'][sample], data['document_preview'][sample])
-            print(f"retrieve {data['document_preview'][sample]} & answer {data['answer'][sample]} hallu: {hallu_result}")
+            print("---------------------------------------------------------------")
+            print(f"retrieve {data['document_preview'][sample]} & answer {data['answer'][sample]}")
+            print(f"\nhallu check: {hallu_result}")
+            print("---------------------------------------------------------------")
             hallu_list.append(hallu_result)
         except Exception as e:
             print(f"Error {e}")
             hallu_list.append(e)
 
     df = pd.DataFrame(hallu_list)
-    df.to_excel(output, index=False)
+    data['hallu_score'] = df['score']
+    data.to_excel(output, index=False)
+    print(f"successfully saved file in {output}")
     return hallu_list
 
 file = "../data/benchmark/test_for_hallucination.xlsx"
