@@ -3,6 +3,7 @@ from langchain_core.output_parsers import JsonOutputParser
 from langchain_groq import ChatGroq
 import os
 import pandas as pd
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
 groq_api_key = os.environ['GROQ_API_KEY']
 llm = ChatGroq(model_name='Llama3-8b-8192', api_key=groq_api_key)
@@ -35,16 +36,29 @@ def hallucination_testing(file, output):
             print(f"retrieve {data['document_preview'][sample]} & answer {data['answer'][sample]}")
             print(f"\nhallu check: {hallu_result}")
             print("---------------------------------------------------------------")
-            hallu_list.append(hallu_result)
+            hallu_list.append(hallu_result['score'])
         except Exception as e:
             print(f"Error {e}")
-            hallu_list.append(e)
+            hallu_list.append("error result")
 
-    df = pd.DataFrame(hallu_list)
-    data['hallu_score'] = df['score']
+    data['hallu_score'] = hallu_list
     data.to_excel(output, index=False)
     print(f"successfully saved file in {output}")
     return hallu_list
+
+
+def classification_report(file):
+    data = pd.read_excel(file)
+    valid_row = data[data['hallu_score'] != 'error result']
+    y_true = valid_row['label']
+    y_pred = valid_row['hallu_score']
+
+    label_list = ["yes", "no"]
+    accuracy = accuracy_score(y_true, y_pred)
+    precision = precision_score(y_true, y_pred, labels=label_list, average="binary", pos_label="yes")
+    recall = recall_score(y_true, y_pred, labels=label_list, average="binary", pos_label="yes")
+    f1 = f1_score(y_true, y_pred, labels=label_list, average="binary", pos_label="yes")
+    return accuracy, precision, recall, f1
 
 file = "../data/benchmark/test_for_hallucination.xlsx"
 output = "../data/test_output/hallucination_zeroshot.xlsx"
