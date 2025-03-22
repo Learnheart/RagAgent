@@ -14,7 +14,37 @@ def check_hallucination(generation, documents):
         template=""" <|begin_of_text|><|start_header_id|>system<|end_header_id|> You are a grader assessing whether 
         an answer is grounded in / supported by a set of facts. Give a binary 'yes' or 'no' score to indicate 
         whether the answer is grounded in / supported by a set of facts. Provide the binary score as a JSON with a 
-        single key 'score' and no preamble or explanation. <|eot_id|><|start_header_id|>user<|end_header_id|>
+        single key 'score' and no preamble or explanation. 
+        
+        Example 1:
+        document: "Điều 9. Phân loại đất\n1. Căn cứ vào mục đích sử dụng,\nđất đai được phân loại bao gồm nhóm đất nông nghiệp, nhóm đất phi nông nghiệp,\nnhóm đất chưa sử dụng. 2. Nhóm đất\nnông nghiệp bao gồm các loại đất sau đây: a) Đất trồng cây hằng năm, gồm đất trồng lúa và đất trồng cây hằng năm khác; b) Đất trồng cây lâu năm; c) Đất lâm nghiệp, gồm đất rừng\nđặc dụng, đất rừng phòng hộ, đất rừng sản xuất; d) Đất nuôi trồng thủy sản; đ) Đất chăn nuôi tập trung; e) Đất làm muối; g) Đất nông nghiệp khác. 3"
+        answer: "Các loại đất nông nghiệp bao gồm: Đất trồng cây hằng năm, gồm đất trồng lúa và đất trồng cây hằng năm khác; Đất trồng cây lâu năm; Đất lâm nghiệp, gồm đất rừng đặc dụng, đất rừng phòng hộ, đất rừng sản xuất; Đất nuôi trồng thủy sản; Đất chăn nuôi tập trung; Đất làm muối và các loại đất công nghiệp khác"
+        score: {'score': 'yes'}
+        
+        Example 2:
+        document: ". 2. Việc sử dụng đất kết\nhợp đa mục đích phải đáp ứng các yêu cầu sau đây: a) Không làm thay đổi loại đất theo phân loại đất quy định tại khoản 2 và khoản 3 điều 9 và đã được xác định tại các loại\ngiấy tờ quy định tại điều 10 của Luật này ; b) Không làm mất đi điều kiện cần thiết để trở\nlại sử dụng đất vào mục đích chính; c) Không ảnh hưởng đến quốc phòng, an ninh; d) Hạn chế ảnh hưởng đến bảo tồn hệ sinh thái\ntự nhiên, đa dạng sinh học, cảnh quan môi trường; đ) Không làm ảnh hưởng đến việc sử dụng đất của\ncác thửa đất liền kề; e) Thực hiện đầy đủ nghĩa vụ tài chính theo\nquy định; g) Tuân thủ pháp luật có liên quan. 3. Trường hợp đ ơn vị sự nghiệp công lập sử dụng đất xây dựng công trình sự\nnghiệp kết hợp với thương mại, dịch vụ thì phải chuyển sang thuê đất trả tiền thuê đất\nhằng năm đối với phần diện tích kết hợp đó. 4"
+        answer: "Các loại đất nông nghiệp bao gồm: Đất trồng cây hằng năm, gồm đất trồng lúa và đất trồng cây hằng năm khác; Đất trồng cây lâu năm; Đất lâm nghiệp, gồm đất rừng đặc dụng, đất rừng phòng hộ, đất rừng sản xuất; Đất nuôi trồng thủy sản; Đất chăn nuôi tập trung; Đất làm muối và các loại đất công nghiệp khác"
+        score: {'score': 'no'}
+        
+        Example 3: 
+        document: "Điều 5. Các\nloại bất động sản, dự án bất động sản đưa vào kinh doanh\n1. Nhà ở có sẵn và nhà ở hình\nthành trong tương lai. 2. Công\ntrình xây dựng có sẵn, công trình xây dựng hình thành trong tương lai, bao gồm\ncông trình xây dựng có công năng phục vụ mục đích giáo dục, y tế, thể thao, văn\nhóa, văn phòng, thương mại, dịch vụ, du lịch, lưu trú, công nghiệp và công\ntrình xây dựng có công năng phục vụ hỗn hợp. 3. Phần diện tích sàn xây dựng\ntrong công trình xây dựng theo quy định tại khoản 2 Điều này. 4. Quyền sử dụng đất đã có hạ tầng\nkỹ thuật trong dự án bất động sản. 5. Dự án bất động sản. 6. Chính phủ\nquy định chi tiết khoản 2 và khoản 3 Điều này."
+        answer: "Điều 5 Luật Đất đai 2024 quy định các nguyên tắc sử dụng đất như sau:
+            1. Đúng mục đích sử dụng đất.
+            2. Bền vững, tiết kiệm, có hiệu quả đối với đất đai và tài nguyên trên bề mặt, trong lòng đất.
+            3. Bảo vệ đất, bảo vệ môi trường, thích ứng với biến đổi khí hậu, không được lạm dụng thuốc bảo vệ thực vật, phân hóa học làm ô nhiễm, thoái hóa đất.
+            4. Thực hiện quyền và nghĩa vụ của người sử dụng đất trong thời hạn sử dụng đất theo quy định của Luật này và quy định khác của pháp luật có liên quan; không xâm phạm quyền, lợi ích hợp pháp của người sử dụng đất liền kề và xung quanh."
+        score: {'score': 'no'}
+        
+        Example: 4
+        document: "Điều 5.\nNguyên tắc sử dụng đất\n1. Đúng mục đích sử dụng đất. 2. Bền vững, tiết kiệm, có hiệu\nquả đối với đất đai và tài nguyên trên bề mặt, trong lòng đất. 3. Bảo vệ đất, bảo vệ môi trường,\nthích ứng với biến đổi khí hậu, không được lạm dụng thuốc bảo vệ thực vật, phân\nhóa học làm ô nhiễm, thoái hóa đất. 4. Thực hiện quyền và nghĩa vụ của\nngười sử dụng đất trong thời hạn sử dụng đất theo quy định của Luật này và quy\nđịnh khác của pháp luật có liên quan; không xâm phạm quyền, lợi ích hợp pháp của\nngười sử dụng đất liền kề và xung quanh."
+        answer: "Điều 5 Luật Đất đai 2024 quy định các nguyên tắc sử dụng đất như sau:
+            1. Đúng mục đích sử dụng đất.
+            2. Bền vững, tiết kiệm, có hiệu quả đối với đất đai và tài nguyên trên bề mặt, trong lòng đất.
+            3. Bảo vệ đất, bảo vệ môi trường, thích ứng với biến đổi khí hậu, không được lạm dụng thuốc bảo vệ thực vật, phân hóa học làm ô nhiễm, thoái hóa đất.
+            4. Thực hiện quyền và nghĩa vụ của người sử dụng đất trong thời hạn sử dụng đất theo quy định của Luật này và quy định khác của pháp luật có liên quan; không xâm phạm quyền, lợi ích hợp pháp của người sử dụng đất liền kề và xung quanh."
+        score: {'score': 'yes'}
+        
+        <|eot_id|><|start_header_id|>user<|end_header_id|>
         Here are the facts:
         \n ------- \n
         {documents} 
