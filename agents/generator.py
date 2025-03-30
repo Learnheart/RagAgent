@@ -35,7 +35,8 @@ def answer_generator(question):
         1. Cơ quan nhà nước thực hiện quyền hạn và trách nhiệm đại diện chủ sở hữu toàn dân về đất đai, thực hiện nhiệm vụ thống nhất quản lý nhà nước về đất đai.
         2. Người sử dụng đất.
         3. Các đối tượng khác có liên quan đến việc quản lý, sử dụng đất đai.'
-        Answer in professional in vietnamese.
+        
+        **IMPORTANT**: Your response **MUST** be in Vietnamese, the tone have to professional and polite
         <|eot_id|><|start_header_id|>user<|end_header_id|>
         Question: {question} 
         Context: {context} 
