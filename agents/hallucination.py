@@ -2,6 +2,7 @@ from langchain.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_groq import ChatGroq
 import os
+import time
 import pandas as pd
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
@@ -11,10 +12,9 @@ llm = ChatGroq(model_name='Llama3-8b-8192', api_key=groq_api_key)
 def check_hallucination(generation, documents):
 
     hallucination_grader_prompt = PromptTemplate(
-        template=""" <|begin_of_text|><|start_header_id|>system<|end_header_id|> You are a grader assessing whether 
-        an answer is grounded in / supported by a set of facts. Give a binary 'yes' or 'no' score to indicate 
-        whether the answer is grounded in / supported by a set of facts. Provide the binary score as a JSON with a 
-        single key 'score' and no preamble or explanation. 
+        template="""You are a grader assessing whether an answer is **strictly grounded in and supported by** a set of referenced legal documents about **Vietnam Real Estate Law**. 
+        If the answer accurately reflects information from the provided legal documents **without introducing unsupported details, fabricating legal articles, or misstating years**, grade it as `"yes"`. Otherwise, grade it as `"no"`.
+        Provide the binary score as a JSON with a single key `"score"` and no preamble or explanation. 
         
         Example 1:
         document: "Điều 9. Phân loại đất\n1. Căn cứ vào mục đích sử dụng,\nđất đai được phân loại bao gồm nhóm đất nông nghiệp, nhóm đất phi nông nghiệp,\nnhóm đất chưa sử dụng. 2. Nhóm đất\nnông nghiệp bao gồm các loại đất sau đây: a) Đất trồng cây hằng năm, gồm đất trồng lúa và đất trồng cây hằng năm khác; b) Đất trồng cây lâu năm; c) Đất lâm nghiệp, gồm đất rừng\nđặc dụng, đất rừng phòng hộ, đất rừng sản xuất; d) Đất nuôi trồng thủy sản; đ) Đất chăn nuôi tập trung; e) Đất làm muối; g) Đất nông nghiệp khác. 3"
@@ -43,13 +43,12 @@ def check_hallucination(generation, documents):
             3. Bảo vệ đất, bảo vệ môi trường, thích ứng với biến đổi khí hậu, không được lạm dụng thuốc bảo vệ thực vật, phân hóa học làm ô nhiễm, thoái hóa đất.
             4. Thực hiện quyền và nghĩa vụ của người sử dụng đất trong thời hạn sử dụng đất theo quy định của Luật này và quy định khác của pháp luật có liên quan; không xâm phạm quyền, lợi ích hợp pháp của người sử dụng đất liền kề và xung quanh."
         output: `{{"score": "yes"}}`
-        
-        <|eot_id|><|start_header_id|>user<|end_header_id|>
+     
         Here are the facts:
         \n ------- \n
         {documents} 
         \n ------- \n
-        Here is the answer: {generation}  <|eot_id|><|start_header_id|>assistant<|end_header_id|>""",
+        Here is the answer: {generation}""",
         input_variables=["generation", "documents"],
     )
     hallucination_grader = hallucination_grader_prompt | llm | JsonOutputParser()
@@ -72,7 +71,7 @@ def hallucination_testing(file, output):
             hallu_list.append("error result")
 
     data['hallu_score'] = hallu_list
-    data.to_excel(output, index=False)
+    data.to_csv(output, index=False)
     print(f"successfully saved file in {output}")
     return hallu_list
 
@@ -90,13 +89,19 @@ def classification_report(file):
     f1 = f1_score(y_true, y_pred, labels=label_list, average="binary", pos_label="yes")
     return accuracy, precision, recall, f1
 
-# file = "../data/benchmark/test_for_hallucination.xlsx"
-# output = "../data/test_output/hallucination_fewshot.xlsx"
-# hallucination_testing(file, output)
+start = time.time()
+file = "../data/benchmark/test_for_hallucination_labelled.xlsx"
+output = "../data/test_output/hallucination_fewshot.csv"
+hallucination_testing(file, output)
 
-accuracy, precision, recall, f1 = classification_report("../data/test_output/hallucination_fewshot.xlsx")
+end = time.time()
+print(f"time for hallu: {end - start}")
+
+accuracy, precision, recall, f1 = classification_report("../data/test_output/hallucination_fewshot.csv")
 print(f"accuracy {accuracy}")
 print(f"precision {precision}")
 print(f"recall {recall}")
 print(f"f1 score {f1}")
+
+
 
