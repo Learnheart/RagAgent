@@ -89,19 +89,23 @@ def classification_report(file):
     f1 = f1_score(y_true, y_pred, labels=label_list, average="binary", pos_label="yes")
     return accuracy, precision, recall, f1
 
-start = time.time()
-file = "../data/benchmark/test_for_hallucination_labelled.xlsx"
-output = "../data/test_output/hallucination_fewshot.csv"
-hallucination_testing(file, output)
+# start = time.time()
+# file = "../data/benchmark/test_for_hallucination_labelled.xlsx"
+# output = "../data/test_output/hallucination_fewshot.csv"
+# hallucination_testing(file, output)
 
-end = time.time()
-print(f"time for hallu: {end - start}")
+# end = time.time()
+# print(f"time for hallu: {end - start}")
 
-accuracy, precision, recall, f1 = classification_report("../data/test_output/hallucination_fewshot.csv")
-print(f"accuracy {accuracy}")
-print(f"precision {precision}")
-print(f"recall {recall}")
-print(f"f1 score {f1}")
+data = pd.read_csv("../data/test_output/hallucination_fewshot.csv")
+print(data[data['hallu_score'] == "error result"])
+# accuracy, precision, recall, f1 = classification_report(data)
+# print(f"accuracy {accuracy}")
+# print(f"precision {precision}")
+# print(f"recall {recall}")
+# print(f"f1 score {f1}")
+
+# time fewshot: 1564.1549611091614
 
 
 
