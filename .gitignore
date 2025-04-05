@@ -1,2 +1,8 @@
 .venv
 embedding_cache/
+
+agent_libs/
+agents/memory.py
+data_explore.ipynb
+langgraph_old.ipynb
+langgraph_copy.ipynb
